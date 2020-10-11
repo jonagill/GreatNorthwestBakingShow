@@ -53,13 +53,13 @@ If playing with more than six players, some players may be playing the Detective
 Here are the phases of the game, along with rough estimates of the time allotted for each phase:
 
 * Initial introductions and presentation of alibis:  ~15 minutes
-** If the Detective is playing, they may ask each player to introduce themselves and explain their alibi in turn. If no Detective is present or if they are not comfortable doing so, the game master should lead the introductions instead.
+    * If the Detective is playing, they may ask each player to introduce themselves and explain their alibi in turn. If no Detective is present or if they are not comfortable doing so, the game master should lead the introductions instead.
 * First round of crime scene investigation:  ~15 minutes
 * Presentation of initial findings:  ~20 minutes
 * Second round of crime scene investigation:  ~15 minutes
 * Presentation of secondary findings:  ~20 minutes
 * Final round of crime scene investigation:  ~25 minutes
-** During this round, the Detective and the Detective’s Assistant are free to invite suspects into the Interrogation Room for a private discussion.
+    * During this round, the Detective and the Detective’s Assistant are free to invite suspects into the Interrogation Room for a private discussion.
 * Final deliberations and discussion:  ~15 minutes
 * All players submit their votes for who they believe to be the killer:  ~5 minutes
 * The killer is revealed and the winners are announced
