@@ -34,7 +34,7 @@ By customizing the included [Twine](http://twinery.org) project and uploading it
 
 All of the players investigate the crime scene together, searching for clues, presenting the evidence that they discover, and running interrogations to try to poke holes in each other’s alibis.
 
-The goal of the innocent suspects is to discover the killer’s true identity and successfully arrest them via a majority vote at the end of the game. If the murderer is arrested at the end of the game, all of the players who voted for the murderer win the game.
+The goal of the innocent suspects is to discover the killer’s true identity and successfully arrest them via a plurality vote at the end of the game. If the murderer is arrested at the end of the game, all of the players who voted for the murderer win the game.
 
 The goal of the murderer is to avoid suspicion and ultimately get an innocent suspect arrested instead. If someone other than the murderer is arrested at the end of the game, the murderer wins.
 
@@ -182,7 +182,7 @@ The players will now begin their exploration of the crime scene. They will do th
 
 Note that turns are only spent when visiting new areas on the website. If a player returns to an areathat they have already explored at any point during the investigation, it will not cost them a turn.
 
-The players will also be split into smaller groups during the investigation. This will allow them to communicate privately away from the whole group. If players wish, they may coordinate with their group in order to split up and investigate a wider area than they would otherwise. They may also share any clues they discover or share theories that they are developing. You may wish to remind players that discovering who the murderer is on their own is not enough to win the game -- they will need to a majority vote at the end of the game if they are going to convict the guilty criminal!
+The players will also be split into smaller groups during the investigation. This will allow them to communicate privately away from the whole group. If players wish, they may coordinate with their group in order to split up and investigate a wider area than they would otherwise. They may also share any clues they discover or share theories that they are developing. You may wish to remind players that discovering who the murderer is on their own is not enough to win the game -- they will need to convince their fellow players to vote along with them if they are going to convict the guilty criminal!
 
 If players wish, they may also invite players from their group into their private chat channels (if you configured any) to communicate completely privately. No one may enter another player's channel without an invitation!
 
