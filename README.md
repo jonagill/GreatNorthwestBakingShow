@@ -200,9 +200,9 @@ Paste the invite code somewhere that everyone can see it, start your timer, and 
 
 ### Presentation of initial findings (~20 minutes)
 
-Once the 15 minutes of initial investigation are up, you should go into each group channel and request that everyone return to the general channel.
+Once the 15 minutes of initial investigation are up, you should go into each group channel and request that everyone return to the general channel. If a player has not yet used up all of their turns, have them click the `Time's Up` button in the bottom-right corner of the website to discard those turns.
 
-Once there, each player will have the opportunity the present any evidence they have discovered or any theories that they have developed. Players are not allowed to share screen captures or text copied from the Twine project. The other players will have to take their words for what they've discovered (remembering that only the murderer is allowed to lie!).
+Once all of the players have gathered together, each player will have the opportunity the present any evidence they have discovered or any theories that they have developed. Players are not allowed to share screen captures or text copied from the Twine project. The other players will have to take their words for what they've discovered (remembering that only the murderer is allowed to lie!).
 
 Apart from this, each player has 2 minutes with which to do as they see fit. You should track this time on your stopwatch, but do not feel like you have to aggressively enforce this -- unless a player is taking far more time than they are alloted, it is usually more interesting to let the players fully explain what they have discovered rather than cutting them off to enforce a time limit. The presenting player is allowed to ask the other players questions, and the other players are allowed to ask them back, but the presenting player is free to ignore any questions they don't want to answer. This is their time, after all!
 
