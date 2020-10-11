@@ -214,9 +214,9 @@ The second round of the investigation plays the same as the first round, but it 
 
 You should also make sure to re-assign players' investigation groups for this round. You can assign them randomly or use the recommended grouping:
 
-* Group 1: Comedian, Technical Contestant, Detective 
-* Group 2: Creative Contestant, Director of Photography, Detective's Assistant
-* Group 3: Partygoer, YouTuber
+* Group 1: Partygoer, Technical Contestant, Detective 
+* Group 2: YouTuber, Director of Photography, Detective's Assistant
+* Group 3: Comedian, Creative Contestant 
 
 Post the [invite code](https://github.com/jonagill/GreatNorthwestBakingShow/blob/main/Spoilers/InviteCodes.md) for round 2 somewhere that everyone can see it, start your timer, and enjoy the fun!
 
