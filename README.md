@@ -118,15 +118,15 @@ If you have not downloaded Twine before, you should install it from [Twinery.org
 
 Next, download the Great Northwest Baking Show Twine project by right-clicking [this link](https://raw.githubusercontent.com/jonagill/GreatNorthwestBakingShow/main/Twine/The%20Great%20Northwest%20Baking%20Show.html), hitting Save As, and downloading it to your Twine stories directory (Documents/Twine/Stories on both PC and Mac).
 
-!(Selecting the Twine project)[https://github.com/jonagill/GreatNorthwestBakingShow/raw/main/Images/TwineProject.PNG]
+![Selecting the Twine project](https://github.com/jonagill/GreatNorthwestBakingShow/raw/main/Images/TwineProject.PNG)
 
 Open Twine and select the Great Northwest Baking Show project.
 
-!(Opening the Welcome node)[https://raw.githubusercontent.com/jonagill/GreatNorthwestBakingShow/main/Images/WelcomeNode.PNG]
+![Opening the Welcome node](https://raw.githubusercontent.com/jonagill/GreatNorthwestBakingShow/main/Images/WelcomeNode.PNG)
 
 Double-click the node labeled Welcome to open the script editor.
 
-!(Modifying the character names)[https://github.com/jonagill/GreatNorthwestBakingShow/raw/main/Images/PlayerNames.PNG]
+![Modifying the character names](https://github.com/jonagill/GreatNorthwestBakingShow/raw/main/Images/PlayerNames.PNG)
 
 The Welcome node contains all of the customizable game state. At a minimum, you should update each of the character names to match the players playing those characters.
 
@@ -134,7 +134,7 @@ If you wish, you can also update certain other elements, such as the name of The
 
 Feel free to press the Test or Play buttons at any time to verify that the game runs correctly with your changes.
 
-!(Publishing the Twine project)[https://raw.githubusercontent.com/jonagill/GreatNorthwestBakingShow/main/Images/PublishToFile.PNG]
+![Publishing the Twine project](https://raw.githubusercontent.com/jonagill/GreatNorthwestBakingShow/main/Images/PublishToFile.PNG)
 
 When you have made all of the changes that you wish to make, you will need to publish the Twine project and upload it somewhere on the web. To publish the project, click on the large arrow next to the project title at the bottom of the screen, then select `Publish to File`. This will export the project as an HTML file that you can upload to any web server and share with your players on game day.
 
