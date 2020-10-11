@@ -2,11 +2,17 @@
 ## A socially-distanced murder mystery based on a certain British baking show
 
 > Welcome to the Great Northwest Baking Show!
+>
 > For the first time ever, the global baking competition phenomenon is going local with a season focusing on the amateur bakers of the Pacific Northwest region of the United States.
+>
 > Everything was lined up to make this season a smash-hit. With a gorgeous shooting location of Lakewood, WA’s Thornewood Castle and a superstar judging lineup that included of Baking Show legend Paul Holyroot, this was going to be the best season of the Baking Show yet.
+>
 > At least, that was the plan. Alas, late on the night before the finale was to be shot, Paul Holyroot was discovered dead in his personal dressing room by one of his co-hosts. The blood splattered across the room left little room for doubt – this was a murder.
+>
 > The detectives have been called.
+>
 > The crime scene has been locked down.
+>
 > Now day is breaking and one thing has been made clear – no one is leaving here until the murderer has been found.
 
 The Great Northwest Baking Show is a murdery mystery party designed to be played socially-distanced over video chat.  A murder has occurred at the filming location of the new season of the hit baking competition show, and the players are all suspects in that murder! Each player must prove their innocence must prove their innocence by exploring a digital crime scene, collecting clues, and building a case against the true killer. At the end of the game, the players will vote to determine who they believe the murderer to be -- if they catch the real killer, the killer is arrested and everyone who voted for them wins. If not, an innocent person is sent to jail, and the murderer wins instead
