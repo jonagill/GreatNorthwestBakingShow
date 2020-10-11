@@ -1,3 +1,5 @@
+<img src="https://github.com/jonagill/GreatNorthwestBakingShow/raw/main/Images/Banner.jpg" height="320">
+
 # The Great Northwest Baking Show
 ## A socially-distanced murder mystery based on a certain British baking show
 
@@ -129,13 +131,13 @@ Next, download the Great Northwest Baking Show Twine project by right-clicking [
 
 Open Twine and select the Great Northwest Baking Show project.
 
-<img src="https://raw.githubusercontent.com/jonagill/GreatNorthwestBakingShow/main/Images/WelcomeNode.PNG" height="280">
+<img src="https://raw.githubusercontent.com/jonagill/GreatNorthwestBakingShow/main/Images/SetupNode.PNG" height="280">
 
-Double-click the node labeled Welcome to open the script editor.
+Double-click the node labeled Setup to open the script editor.
 
 <img src="https://github.com/jonagill/GreatNorthwestBakingShow/raw/main/Images/PlayerNames.PNG" height="280">
 
-The Welcome node contains all of the customizable game state. At a minimum, you should update each of the character names to match the players playing those characters.
+The Setup node contains all of the customizable game state. At a minimum, you should update each of the character names to match the players playing those characters.
 
 If you wish, you can also update certain other elements, such as the name of The YouTuber's channel or the names of various non-player characters (NPCs). For instance, if an NPC shares a name with one of your players, you may wish to change the NPC's name to avoid potential confusion. Please note that these additional customizable elements are also referenced in the character packets, so you will want to also update the packets to reflect any changes that you make here. The player names are not referenced in the character packets, so you will not need to change the packets if all you change are the player names.
 
