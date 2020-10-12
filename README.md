@@ -248,6 +248,8 @@ You may also want to have players vote for other bonus awards. For instance, vot
 
 Once the votes are counted, you should announce them as dramatically as possible. Whoever was voted to be the murderer by the most players is convicted and dragged away in chains.
 
+If multiple players are tied for the most votes, then allow anyone who did not vote for one of the tied players to change their votes and break the tie. If no such players exist (i.e. if everyone voted for one of the tied players), then allow the detective to pick between the tied players. If there is no detective, then you'll have to send it back to open deliberation until a plurality is reached.
+
 The convicted player should then reveal if they were the murderer or not. If they were, then all the players who voted to convict them win the game. Woohoo!
 
 If the convicted player wasn't the murderer, the true murderer should reveal themselves, ideally with their best evil laugh.
