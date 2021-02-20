@@ -20,7 +20,7 @@ title.youtuber_youtube:&quot;2Sweet2Beat&quot;
 title.dp_movie:&quot;The Longest Goodnight&quot;
 
 npc.comedian_sponsor:&quot;Graham&quot;
-npc_youtuber_agent:&quot;Ken W&quot;
+npc.youtuber_agent:&quot;Ken W&quot;
 npc.partygoer_admissions:&quot;Daniel French&quot;
 npc.dp_producer:&quot;Arnie Lorensson&quot;
 
@@ -803,9 +803,7 @@ You carefully lift his body away from the desk and prop it upright in his chair.
 You carefully pat down Paul&#39;s body, but find little else of interest. Apart from a wicked case of keyboard face, he has no other visible injuries. His wallet is still in his jeans pocket, and nothing appears to have been taken from it.
 
 
-[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="86" name="Paul&#39;s Dressing Room: Bed" tags="" position="3282,1161" size="100,100">keys.wardrobe:true
-
---
+[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="86" name="Paul&#39;s Dressing Room: Bed" tags="" position="3282,1161" size="100,100">--
 
 {embed passage:&#39;Take Turn&#39;}
 
@@ -866,15 +864,11 @@ _10:25 PM -- 3:21:10_
 
 You open the door to the standing wardrobe. You&#39;ve never seen so many sets of collared shirts and jeans in your life.
 
-[if keys.wardrobe]
-You run your fingers down the edge of the wardrobe, feeling for where you saw missing nail on the outside. You&#39;re surprised when your fingers brush against what feels a [[small plastic box-&gt;Paul&#39;s Dressing Room: Camera]].
-[else]
-You can&#39;t shake the feeling that there must be something more here. You slide the clothes back and forth along the hanging rail, looking for anything unusual about the wardrobe itself, but nothing jumps out to you.
-[continue]
+You run your fingers down the back and sides of the wardrobe. You&#39;re surprised when your fingers brush against what feels a [[small plastic box-&gt;Paul&#39;s Dressing Room: Camera]].
 
 [[Close the door.-&gt;Paul&#39;s Dressing Room: Wardrobe]]</tw-passagedata><tw-passagedata pid="90" name="Paul&#39;s Dressing Room: Camera" tags="" position="3435,1426" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
-The box is stuck onto the side of the wardrobe with some kind of glue, but you wiggle it back and forth gently until it comes away into your hand.
+The box is stuck to the side of the wardrobe with some kind of glue, but you wiggle it back and forth gently until it comes away into your hand.
 
 You examine the box carefully, turning it back and forth under the light. It&#39;s made of a dull gray plastic, clearly designed to be inconspicuous, but the circle lens on one side marks it unmistakably as a camera of some kind.
 
@@ -1311,7 +1305,7 @@ You lift the laptop&#39;s lid and type a couple of keys to wake it up. The scree
 A web browser is open on the laptop&#39;s screen. There are several tabs already open:
 
 &gt; [[Channel analytics - Youtube Studio-&gt;Youtuber&#39;s Dressing Room: Analytics]]
-&gt; [[{npc_youtuber_agent} - Messages-&gt;Youtuber&#39;s Dressing Room: Agent]]
+&gt; [[{npc.youtuber_agent} - Messages-&gt;Youtuber&#39;s Dressing Room: Agent]]
 &gt; [[The Holy Church of Root-&gt;Youtuber&#39;s Dressing Room: Blog]]
 
 [continue]
@@ -1353,7 +1347,7 @@ This lack of output is really starting to show in their analytics, too. Where th
 
 </tw-passagedata><tw-passagedata pid="125" name="Youtuber&#39;s Dressing Room: Agent" tags="" position="3376,845" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
-This tab is contains a message thread between {player.youtuber} and one {npc_youtuber_agent}, whose profile lists them as an agent working for Allied Talent Agency.
+This tab is contains a message thread between {player.youtuber} and one {npc.youtuber_agent}, whose profile lists them as an agent working for Allied Talent Agency.
 
 ***
 
