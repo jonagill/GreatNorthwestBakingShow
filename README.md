@@ -180,7 +180,7 @@ The players may ask each other clarifying questions during their introductions, 
 
 The players will now begin their exploration of the crime scene. They will do this via the custom Twine project that you uploaded to your website earlier. They will have a limited amount of time to perform their investigations, along with a limited number of 'turns' (clicks) that they can perform on the website. Whenever a player runs out of time or clicks, they will be unable to investigate further until the next round of investigations.
 
-Note that turns are only spent when visiting new areas on the website. If a player returns to an areathat they have already explored at any point during the investigation, it will not cost them a turn.
+Note that turns are only spent when visiting new areas on the website. If a player returns to an area that they have already explored at any point during the investigation, it will not cost them a turn.
 
 The players will also be split into smaller groups during the investigation. This will allow them to communicate privately away from the whole group. If players wish, they may coordinate with their group in order to split up and investigate a wider area than they would otherwise. They may also share any clues they discover or share theories that they are developing. You may wish to remind players that discovering who the murderer is on their own is not enough to win the game -- they will need to convince their fellow players to vote along with them if they are going to convict the guilty criminal!
 
