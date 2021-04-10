@@ -162,6 +162,8 @@ Make sure to explain any private group chat areas that you have configured and h
 
 If possible, ask your players to set their nickname on the video chat to match their names in the Twine project. This generally takes the format of "Role + First Name": "Comedian Paul", "Detective Maggie", etc. This will make it easier for the other players to match each player to the clues they discover during their investigation.
 
+You may also wish to give players five minutes to review their character packets and ask you any questions they have before the game begins in earnest.
+
 Try to end this phase as soon as possible after the scheduled start time. You want to respect your players' time, after all!
 
 As you end this round, emphasize to your players that they are now embodying their characters. That means no out-of-character talk (unless they have questions or comfort concerns that they wish to address to you), and it means that *characters other than the murderer cannot lie from this point out!*
