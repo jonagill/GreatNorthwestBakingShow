@@ -52,7 +52,7 @@ The Creative Contestant is one of the finalists in the Great Northwest Baking Sh
 
 However, baking is not their true passion. Instead, the Creative Contestant hoping to launch a new career as a murder mystery novelist, and they are hoping that the Baking Show will boost their profile enough to make their debut book a big success.
 
-Yesterday they found evidence suggesting that the Technical Contestant had been sleeping with Paul Holyroot. Assuming this meant that the judging would be biased, they gave up on practicing for the evening and decided to drink their sorrows away with the Youtuber instead.
+Yesterday they found evidence suggesting that the Technical Contestant had been sleeping with Paul Holyroot. Assuming this meant that the judging would be biased, they gave up on practicing for the evening and decided to vent their sorrows to the Youtuber instead.
 
 
 ### The Partygoer
