@@ -81,7 +81,7 @@ You will need a video chat service to use during the game. We recommend using [D
 While the game can be played with all of the players in a single group call the whole time, it is preferable that you are able to split the players up so that they can discuss and conspire amongst each other secretly during the game. To do that, we recommend using a video chat service that allows players to separate into multiple groups and configruing the following group areas:
 
 * A group chat area where everyone can meet to discuss things openly between investigations
-* Three smaller 'team' areas where players can talk during investigations (3 players max)
+* Three smaller 'group' areas where players can talk during investigations (3 players max)
 * One area per suspect character that the player controlling that character can use to invite people to have private discussions (3 players max)
 * One Interrogation Room that the Detective and Detective's Assistant can pull suspects into to interrogate them during the third investigation round (3 players max)
 
@@ -212,6 +212,8 @@ Once each player has had an opportunity to present their findings, proceed to th
 
 ### Second round of crime scene investigation (~15 minutes)
 
+Before beginning the second round, ask if anyone needs to take a 5 minute break to hit the bathroom or refresh their beverage. No one likes solving mysteries on a full bladder!
+
 The second round of the investigation plays the same as the first round, but it requires a different [invite code](https://github.com/jonagill/GreatNorthwestBakingShow/blob/main/Spoilers/InviteCodes.md) to prevent players from sneakily re-using the first one to investigate between rounds.
 
 You should also make sure to re-assign players' investigation groups for this round. You can assign them randomly or use the recommended grouping:
@@ -227,6 +229,8 @@ Post the [invite code](https://github.com/jonagill/GreatNorthwestBakingShow/blob
 The presentation of round 2's findings runs just like it did for round 1, but you should try to change up the order in which players present. For instance, if you had players present from top-to-bottom in round 1, try having them present from bottom-to-top in round 2.
 
 ### Final round of crime scene investigation (~25 minutes)
+
+Once more, make sure to ask your players if they need a 5 minute break before beginning the final round.
 
 The final round of investigation plays out differently than the previous two rounds. There is *no turn limit*, so players are able to visit as many locations as they'd like. The time limit is also significantly increased from previous rounds. Players should use this extra freedom to explore areas of the crime scene that they have previously missed or to verify clues that other players claim to have discovered.
 
@@ -260,4 +264,4 @@ Either way, give the players lots of time to ask each other questions about thei
 
 ## Contact
 
-Jon Gill is the author of The Great Northwest Baking Show (hi!). Feel free to reach out with any questions or thoughts you have, either via [email](mailto:jon@jonagill.com) or [Twitter](http://twitter.com/TheJonAGill).
+Jon Gill is the author of The Great Northwest Baking Show and its sequel, [The Outer Rim](https://github.com/jonagill/OuterRim) (hi!). Feel free to reach out with any questions or thoughts you have, either via [email](mailto:jon@jonagill.com) or [Twitter](http://twitter.com/TheJonAGill).
