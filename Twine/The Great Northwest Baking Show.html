@@ -41,7 +41,6 @@ keys.glovebox:false
 keys.sd_card:false
 keys.sd_card_reader:false
 keys.laptop:false
-keys.old_key:false
 
 --
 
@@ -58,7 +57,7 @@ Although there are thirteen stations in total, only two are stocked and prepared
 
 Beyond the main tent is a [[smaller judges&#39; tent-&gt;Judges&#39; Tent]], where Paul and {player.comedian} are usually filmed deliberating over who to declare Star Baker and who to send home. 
 
-You spot a [[small door-&gt;Garden Door]] in the side of the manor that will take you back into the west wing.
+You spot a in the side of the manor that will take you back into the [[manor&#39;s west wing-&gt;The Castle Foyer]].
 
 The [[entrance to the manor grounds-&gt;The Grounds]] lies at the edge of the garden.</tw-passagedata><tw-passagedata pid="3" name="The Castle Foyer" tags="" position="998,817" size="100,100">config.header.left:&quot;The Manor&quot;
 
@@ -74,7 +73,7 @@ To the left is a [[large sitting room-&gt;The Sitting Room]] that has been conve
 
 On the right are a series of bedrooms that are used as dressing rooms for the judges and hosts. You can see dressing rooms labeled for [[{player.comedian}-&gt;Comedian&#39;s Dressing Room]], [[{player.youtuber}-&gt;Youtuber&#39;s Dressing Room]], and [[Paul Holyroot-&gt;Paul&#39;s Dressing Room]], in that order. You know that Paul&#39;s body was discovered in his dressing room late last night.
 
-At the end of the corridor is a [[small door-&gt;Garden Door]] leading out to the gardens behind the manor.
+At the end of the corridor is a small door leading out to [[the gardens behind the manor-&gt;The Tent]].
 
 Behind you is the front door of the west wing, through which you can [[step back outside-&gt;The Grounds]] if you wish.</tw-passagedata><tw-passagedata pid="4" name="The Driveway" tags="" position="726,1038" size="100,100">config.header.left:&quot;The Driveway&quot;
 
@@ -153,7 +152,7 @@ Unfortunately, this is not a valid invite code. Would you like to [[try again-&g
 Invite code accepted! Welcome to the Great Northwest Baking Show.
 
 [[You may now enter the grounds of Thornewood Castle-&gt;The Grounds]]. 
-[continue]</tw-passagedata><tw-passagedata pid="9" name="The Grounds" tags="" position="822.6666666666666,771.6666666666666" size="100,100">config.header.left:&quot;The Manor Grounds&quot;
+[continue]</tw-passagedata><tw-passagedata pid="9" name="The Grounds" tags="" position="822,771" size="100,100">config.header.left:&quot;The Manor Grounds&quot;
 
 config.footer.right:&quot;[[Out of Time?-&gt;Verify Time Up]]&quot;
 config.footer.left: &quot;[[Return to Entrance-&gt;The Grounds]]&quot;
@@ -208,30 +207,9 @@ There is a [[large writing desk-&gt;Paul&#39;s Dressing Room: Desk]] pushed agai
 
 Unfortunately for Paul, this desk also appears to be where he drew his last breath. [[Paul&#39;s body-&gt;Paul&#39;s Dressing Room: Body]] is slumped face-down onto the desk, his neck twisted at an unnatural angle and his face mashed into the keys of the laptop keyboard that powers his racing setup.
 
-Under the desk is a [[luxurious shag rug-&gt;Paul&#39;s Dressing Room: Rug]] marked with a dark, wide stain.
-
 The other side of the room is a more conventional bedroom, used by Paul to spare him from commuting early in the morning before shooting days. A free-standing [[oak wardrobe-&gt;Paul&#39;s Dressing Room: Wardrobe]] sits alongside the [[large four-poster bed-&gt;Paul&#39;s Dressing Room: Bed]] that takes up much of this side of the room.
 
-[[Head back into the hallway.-&gt;The Castle Foyer]]</tw-passagedata><tw-passagedata pid="14" name="Garden Door" tags="" position="949,665" size="100,100">config.header.left:&quot;The Manor&quot;
-
---
-
-{embed passage:&#39;Take Turn&#39;}
-
-A small door at the end of the manor&#39;s west wing. A frosted glass window makes up the door&#39;s upper half, through which you can see the vague shape of the baking tent pitched in the middle of the manor&#39;s garden.
-
-The door has an old-fashioned bronze handle with room for a key to lock it from the inside. You try the handle, and it turns without resistance. 
-
-[unless keys.old_key]
-It is currently unlocked, and the key is nowhere in sight.
-[else]
-
-_You pull the bronze key out of your pocket and try it in the lock. It&#39;s a perfect fit._
-[continue]
-
-You can [[head outside to the tent-&gt;The Tent]] for some fresh air.
-
-The [[west wing&#39;s main corridor-&gt;The Castle Foyer]] stretches out behind you.</tw-passagedata><tw-passagedata pid="15" name="Magazine Table" tags="" position="572,194" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Head back into the hallway.-&gt;The Castle Foyer]]</tw-passagedata><tw-passagedata pid="14" name="Magazine Table" tags="" position="572,194" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 
 A pile of magazines is stacked neatly on top of the end table. The cover story of each one has something to do with the Baking Show -- clearly they were picked out by the production staff to serve as reading material for guests visiting the set.
@@ -242,23 +220,23 @@ The second magazine&#39;s cover story is [[a long interview Paul Holyroot, altho
 
 The last magazine is [[a profile of {player.comedian}-&gt;Magazine: Comedian&#39;s Rehab]], a popular comedian who was picked to host the GNBS after spending a few years out of the public eye.
 
-[[Investigate the rest of the judge&#39;s tent.-&gt;Judges&#39; Tent]].</tw-passagedata><tw-passagedata pid="16" name="Magazine: Announcing GNBS" tags="" position="751,210" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigate the rest of the judge&#39;s tent.-&gt;Judges&#39; Tent]].</tw-passagedata><tw-passagedata pid="15" name="Magazine: Announcing GNBS" tags="" position="751,210" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The article is mostly a puff piece focused on introducing the new hosting crew. &quot;I&#39;m a huge fan,&quot; {player.youtuber} is quoted as saying. &quot;As someone who grew up watching the Baking Show, getting to work with Paul is a dream come true.&quot;
 
-[[Return your attention to the other magazines.-&gt;Magazine Table]]</tw-passagedata><tw-passagedata pid="17" name="Magazine: Comedian&#39;s Rehab" tags="" position="606,18" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Return your attention to the other magazines.-&gt;Magazine Table]]</tw-passagedata><tw-passagedata pid="16" name="Magazine: Comedian&#39;s Rehab" tags="" position="606,18" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The article reads more like a PR announcement than hard-hitting investigative journalism. After a viral video of them getting into a fight at a club forced them to admit to a lifelong struggle with alcohol and cocaine abuse, {player.comedian} released a public apology and entered one of the fancier rehab clinics in the LA area.
 
 Now after a requisite two years out of the spotlight, {player.comedian} is back and ready to rebrand themselves with a friendlier and more approachable image hosting the Great Northwest Baking Show.
 
-[[Return your attention to the other magazines.-&gt;Magazine Table]]</tw-passagedata><tw-passagedata pid="18" name="Magazine: Paul&#39;s Profile" tags="" position="741,23" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Return your attention to the other magazines.-&gt;Magazine Table]]</tw-passagedata><tw-passagedata pid="17" name="Magazine: Paul&#39;s Profile" tags="" position="741,23" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The interview is pretty surface level -- mostly biographical, it covers Paul&#39;s history as head baker for various hotels and resorts, then moves onto Paul&#39;s career as a TV host. The magazine is a few years old, and so Paul spends most of his time promoting Kitchen Cabinet, his business investment show that ran for two seasons back in 2015.
 
 Most of the article&#39;s photos also appear to be [[shots from that ill-fated show-&gt;Photo: Kitchen Cabinet]], but there is also one of [[Paul smiling with his family-&gt;Photo: Paul&#39;s Family]].
 
-[[Return your attention to the other magazines.-&gt;Magazine Table]]</tw-passagedata><tw-passagedata pid="19" name="Photo: Kitchen Cabinet" tags="" position="925,127" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Return your attention to the other magazines.-&gt;Magazine Table]]</tw-passagedata><tw-passagedata pid="18" name="Photo: Kitchen Cabinet" tags="" position="925,127" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 In the largest photo, Paul is seen inspecting a large, countertop kitchen gadget.
 
@@ -270,13 +248,13 @@ _Paul inspects the BakeBuddy 2000. While three of the other judges chose to inve
 
 ***
 
-[[Continue reading the profile.-&gt;Magazine: Paul&#39;s Profile]]</tw-passagedata><tw-passagedata pid="20" name="Technical&#39;s Station" tags="" position="1397,311" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Continue reading the profile.-&gt;Magazine: Paul&#39;s Profile]]</tw-passagedata><tw-passagedata pid="19" name="Technical&#39;s Station" tags="" position="1397,311" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 {player.technical}&#39;s station is all tidied and ready for what should have been a big day tomorrow. The counter is wiped clean, the stand mixer is prepped and ready to rock, and all the various baking trays and utensils have been put away in [[their various drawers-&gt;Technical&#39;s Station: Drawers]].
 
 Placed neatly in the center of the counter is a manilla folder filled with [[printouts of different recipes-&gt;Technical&#39;s Station: Recipes]].
 
-When you finish here, you [[continue investigating the rest of the tent-&gt;The Tent]].</tw-passagedata><tw-passagedata pid="21" name="Creative&#39;s Station" tags="" position="1163,635" size="100,100">{embed passage:&#39;Take Turn&#39;}
+When you finish here, you [[continue investigating the rest of the tent-&gt;The Tent]].</tw-passagedata><tw-passagedata pid="20" name="Creative&#39;s Station" tags="" position="1163,635" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 {player.creative}&#39;s station is a mess. It looks like they were halfway through a bake when a tornado came through the tent. Dirty baking trays are strewn across the countertop, ingredient jars are toppled over, and the bake itself -- some kind of multi-tiered concoction that may once have resembled the Space Needle -- is [[splattered across the floor-&gt;Creative&#39;s Station: Bake]] beside the station itself.
 
@@ -284,7 +262,7 @@ Various spilled ingredients have run down the front of the station, and splatter
 
 On the corner of the counter is a [[small clothbound notebook-&gt;Creative&#39;s Station: Notebook]] which, apart from a minor dusting of flour, appears to have escaped bulk of the destruction.
 
-When you finish here, you [[continue investigating the rest of the tent-&gt;The Tent]].</tw-passagedata><tw-passagedata pid="22" name="Judges&#39; Tent" tags="" position="713,395" size="100,100">{embed passage:&#39;Take Turn&#39;}
+When you finish here, you [[continue investigating the rest of the tent-&gt;The Tent]].</tw-passagedata><tw-passagedata pid="21" name="Judges&#39; Tent" tags="" position="713,395" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The judge&#39;s tent is signicantly smaller than the main tent, but a lot more comfortable. Although it is used for filming occasional segments of the judge&#39;s deliberating the results of each round of baking, it primarily serves as a quiet, shady place for the judges to relax while the contestants are working. 
 
@@ -294,7 +272,7 @@ There is a [[small magazine table-&gt;Magazine Table]] in one corner of the tent
 
 You have a good view of the back of Thornewood Castle through the flap in the tent. The architectural majesty of the manor is only slightly diminished by the [[large industrial dumpster-&gt;The Dumpster]] that the production crew has placed alongside it.
 
-[[The main baking tent-&gt;The Tent]] flaps gently in the breeze behind you.</tw-passagedata><tw-passagedata pid="23" name="The Dumpster" tags="" position="541,450" size="100,100">config.header.left: &quot;The Gardens&quot;
+[[The main baking tent-&gt;The Tent]] flaps gently in the breeze behind you.</tw-passagedata><tw-passagedata pid="22" name="The Dumpster" tags="" position="541,450" size="100,100">config.header.left: &quot;The Gardens&quot;
 --
 
 {embed passage:&#39;Take Turn&#39;}
@@ -313,7 +291,7 @@ _On the ground is a [[rolling pin wrapped in a green floral apron-&gt;Dumpster: 
 A small service path runs along the edge of the manor and back towards [[the driveway-&gt;The Driveway]]. 
 
 From here you have a good view of the gardens, including [[the judges&#39; tent-&gt;Judges&#39; Tent]].
-</tw-passagedata><tw-passagedata pid="24" name="Creative&#39;s Car" tags="" position="461,1213" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="23" name="Creative&#39;s Car" tags="" position="461,1213" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The inside of {player.creative}&#39;s car is as colorful as their bakes. Hand-made yarn decorations hang from the rearview mirror and the dashboard is covered with bootleg stickers featuring famous cartoon characters dressed as bakers.
 
@@ -324,7 +302,7 @@ The backseat is occupied by a number of [[tote bags-&gt;Creative&#39;s Car: Tote
 As you look around, you notice that there are a number of [[balled-up tissues-&gt;Creative&#39;s Car: Tissues]] stuffed into the driver&#39;s side cupholder.
 
 
-When you&#39;re done, you open the door and [[step back out onto the driveway-&gt;The Driveway]].</tw-passagedata><tw-passagedata pid="25" name="Technical&#39;s Car" tags="" position="839,1270" size="100,100">{embed passage:&#39;Take Turn&#39;}
+When you&#39;re done, you open the door and [[step back out onto the driveway-&gt;The Driveway]].</tw-passagedata><tw-passagedata pid="24" name="Technical&#39;s Car" tags="" position="839,1270" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 {player.technical}&#39;s silver SUV is well-maintained and tidy inside, but the fastidious vacuuming and MIT-branded air freshener can&#39;t hide the fact that the vehicle has to be going on fifteen years old.
 
@@ -334,7 +312,7 @@ Beyond the box, there&#39;s plenty of additional storage around the cab. In addi
 
 Although this vehicle is technically a seven seater, the back row of seats are folded down, creating an expanded storage compartment filled with [[a pile of luggage under a nondescript blanket-&gt;Technical&#39;s Car: Trunk]]. 
 
-When you&#39;re done, you open the door and [[step back out onto the driveway-&gt;The Driveway]].</tw-passagedata><tw-passagedata pid="26" name="Partygoer&#39;s Car" tags="" position="1737,1325" size="100,100">{embed passage:&#39;Take Turn&#39;}
+When you&#39;re done, you open the door and [[step back out onto the driveway-&gt;The Driveway]].</tw-passagedata><tw-passagedata pid="25" name="Partygoer&#39;s Car" tags="" position="1737,1325" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 A sticker on the windshield confirms of {player.partygoer}&#39;s banana-yellow convertible that the car is a rental from the local airport, which explains its nearly spotless interior. It must have been vacuumed right before being driven off of the lot.
 
@@ -342,11 +320,11 @@ A [[rose gold iPad-&gt;Partygoer&#39;s Car: iPad]] is tucked into the pocket of 
 
 There&#39;s not much else inside the car -- there&#39;s barely enough room for the two passengers -- but there is a small button that you can press to [[pop the trunk-&gt;Partygoer&#39;s Car: Trunk]].
 
-When you&#39;re finished, you [[keep investigating the other cars-&gt;The Driveway]].</tw-passagedata><tw-passagedata pid="27" name="Technical&#39;s Car: Baking Supplies" tags="" position="651,1297" size="100,100">{embed passage:&#39;Take Turn&#39;}
+When you&#39;re finished, you [[keep investigating the other cars-&gt;The Driveway]].</tw-passagedata><tw-passagedata pid="26" name="Technical&#39;s Car: Baking Supplies" tags="" position="651,1297" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The box is filled with various exotic ingredients that {player.technical} has brought for use in their final showstopper bake. You spot chickpea flour, several bars of flavored chocolates, and a jar raw honey imported from Indonesia, along with various jars of fresh spices sealed with colorful rubber bands.
 
-[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="28" name="Technical&#39;s Car: Glove Box" tags="" position="684,1503" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="27" name="Technical&#39;s Car: Glove Box" tags="" position="684,1503" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The glove box is embedded in the passenger side of the dashboard. A small silver keyhole is inset next to the handle.
 
@@ -356,7 +334,7 @@ _It looks like the silver key you found might be able to [[open the glove box-&g
 You try the handle, but the glove box refuses to open.
 [continue]
 
-[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="29" name="Technical&#39;s Car: Sunglasses Holder" tags="" position="734,1624" size="100,100">_opening:false
+[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="28" name="Technical&#39;s Car: Sunglasses Holder" tags="" position="734,1624" size="100,100">_opening:false
 _opening (!keys.glovebox):true
 keys.glovebox:true
 
@@ -370,15 +348,15 @@ _You pop open the sunglasses holder, and a small silver key falls out of it and 
 _You open the sunglasses holder again, but there is nothing else inside it._
 [continue]
 
-[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="30" name="Technical&#39;s Car: Center Armrest" tags="" position="846,1508" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="29" name="Technical&#39;s Car: Center Armrest" tags="" position="846,1508" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You lift up the lid of the center armrest. Inside you find a few pen packets of gum and a portable screwdriver set with interchangeable bits.
 
-[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="31" name="Technical&#39;s Car: Cupholders" tags="" position="975,1577" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="30" name="Technical&#39;s Car: Cupholders" tags="" position="975,1577" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You pop out the various cup holders you find in the cab: one each for the driver and passenger, and a full four for the first row of passenger seating. Although there&#39;s enough drinks storage here to keep a whole varsity dodgeball team hydrated, you find nothing more than a used gum wrapper and a handful of quarters between them.
 
-[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="32" name="Technical&#39;s Car: Trunk" tags="" position="1103,1539" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="31" name="Technical&#39;s Car: Trunk" tags="" position="1103,1539" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You pull back the blanket to reveal a stack of shrink-wrapped boxes that fills the entire trunk of the SUV. Each box is emblazened with the words ~~BakeBuddy 9000~ and features a photo of a device that resembles a bright white pressure cooker.
 
@@ -386,13 +364,13 @@ The back of the box claims that the BakeBuddy is capable of making a Michelin-st
 
 There&#39;s easily thirty BakeBuddy boxes back here. While they&#39;re all individually shrink-wrapped, you could always [[take a peek-&gt;Technical&#39;s Car: BakeBuddy]] inside one of the boxes if you want.
 
-[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="33" name="Laundry Van" tags="" position="1167,1170" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="32" name="Laundry Van" tags="" position="1167,1170" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 With up to thirteen bakers cooking at once, the Baking Show goes through an absolutely obscene number of aprons, oven gloves, and dish towels. The production staff has hired a local laundry company to ensure that they always have a fresh supply of sundries to keep everyone looking bright and clean for the cameras. 
 
 Both the [[door to the cab-&gt;Laundry Van: Cab]] and the [[rear double-doors-&gt;Laundry Van: Trunk]] are unlocked.
 
-You can also [[go investigate the other cars-&gt;The Driveway]] instead.</tw-passagedata><tw-passagedata pid="34" name="Bathroom: Antechamber" tags="" position="1324,848" size="100,100">{embed passage:&#39;Take Turn&#39;}
+You can also [[go investigate the other cars-&gt;The Driveway]] instead.</tw-passagedata><tw-passagedata pid="33" name="Bathroom: Antechamber" tags="" position="1324,848" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 This wing is usually booked out by wealthy technocrats looking to vacation outside of the city with their families, and every surface has been done out in high-quality marble, oak, and polished bronze.
 
@@ -400,45 +378,45 @@ In order to better serve multiple people at once, the bathroom has been divided 
 
 Through the open doorway, you spy the [[bathtub and toilet-&gt;Bathroom: Interior]].
 
-[[Head back to the hallway.-&gt;The Castle Foyer]]</tw-passagedata><tw-passagedata pid="35" name="Technical&#39;s Car: Glove Box (Inside)" tags="" position="531,1585" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Head back to the hallway.-&gt;The Castle Foyer]]</tw-passagedata><tw-passagedata pid="34" name="Technical&#39;s Car: Glove Box (Inside)" tags="" position="531,1585" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You find the usual suspects stacked up inside the glove box -- the car&#39;s registration info, receipts for various repairs, a couple old CD jewel cases, and the vehicle&#39;s owner&#39;s manual. Nothing seems to be out of the ordinary at first glance.
 
 However, you notice a small corner of paper sticking out the side of the owner&#39;s manual. Opening it up, you find a signed check from Paul Holyroot&#39;s own checkbook. The date is listed as yesterday, and the amount is no less than $100,000.
 
-[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="36" name="Creative&#39;s Car: Paperbacks" tags="" position="153,1215" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="35" name="Creative&#39;s Car: Paperbacks" tags="" position="153,1215" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The paperbacks all appear to be cheap airport mystery novels, with titles like _My Mother&#39;s a Murderer_, _Cross Your Heart And Hope to Die_, and _A Bad Case of Dead_. Even from the outside, it&#39;s clear that each book is heavily dog-eared and stained with highlighter ink.
 
 If you want, you can [[study the annotations-&gt;Creative&#39;s Car: Paperbacks (Detail)]] to see if there are any patterns in how each book has been marked up.
 
-[[Keep investigating the rest of the car.-&gt;Creative&#39;s Car]]</tw-passagedata><tw-passagedata pid="37" name="Creative&#39;s Car: Tote Bags" tags="" position="151,1361" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of the car.-&gt;Creative&#39;s Car]]</tw-passagedata><tw-passagedata pid="36" name="Creative&#39;s Car: Tote Bags" tags="" position="151,1361" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You rifle through the bags. They contain a couple of carefully folded, color-coordinated baker&#39;s outfits, complete with apron and muffin-topped baker&#39;s hats. There&#39;s a set with yellow polka dots, a navy blue set covered in tiny white stars, and a set marked with white-and-red candy cane stripes.
 
 Unfortunately for {player.creative}, they would never have been able to wear any of these on the Baking Show. The production staff insist on dressing all the contestants in the same uniform tan aprons to keep things consistent.
 
-[[Keep investigating the rest of the car.-&gt;Creative&#39;s Car]]</tw-passagedata><tw-passagedata pid="38" name="Creative&#39;s Car: Tissues" tags="" position="308,1396" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of the car.-&gt;Creative&#39;s Car]]</tw-passagedata><tw-passagedata pid="37" name="Creative&#39;s Car: Tissues" tags="" position="308,1396" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You carefully unball each of the tissues, but they seem to just be regular tissues, stuck together with dried tears and some congealed snot. Yuck.
 
-[[Keep investigating the rest of the car.-&gt;Creative&#39;s Car]]</tw-passagedata><tw-passagedata pid="39" name="Creative&#39;s Car: Paperbacks (Detail)" tags="" position="41,1264" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of the car.-&gt;Creative&#39;s Car]]</tw-passagedata><tw-passagedata pid="38" name="Creative&#39;s Car: Paperbacks (Detail)" tags="" position="41,1264" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 {player.creative} has clearly spent a lot of time studying each of these books and marking them up in detail. As you compare each of the books, it becomes clear that {player.creative} is most interested in the details of the murders in each book. Most of the annotations are focused around the moments where the body is first discovered and the inevitable sequence at the end of each book where the detective explains how the killer did it.
 
 Although there&#39;s barely any margins to speak of in these cramped paperback editions, they&#39;ve even managed to pencil in some their own thoughts along the edges of each page. Most of these thoughts seem to be about the fatal mistake that each killer made that allowed the detective to find them out, and some go so far as to plot out alernate scenarios where the killer manages to convincingly frame someone else for the murder.
 
-[[Keep investigating the rest of the car.-&gt;Creative&#39;s Car]]</tw-passagedata><tw-passagedata pid="40" name="Laundry Van: Cab" tags="" position="1129,1322" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of the car.-&gt;Creative&#39;s Car]]</tw-passagedata><tw-passagedata pid="39" name="Laundry Van: Cab" tags="" position="1129,1322" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 Lorne clearly runs a tight ship. Apart from a laminated and up-to-date business license prominently displayed on the dashboard, nothing about the van&#39;s cab catches your eye. Everything is uncluttered and fastidiously clean -- which you suppose you&#39;d want from a laundry service.
 
-[[Investigating the rest of the van.-&gt;Laundry Van]]</tw-passagedata><tw-passagedata pid="41" name="Laundry Van: Trunk" tags="" position="1301,1329" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigating the rest of the van.-&gt;Laundry Van]]</tw-passagedata><tw-passagedata pid="40" name="Laundry Van: Trunk" tags="" position="1301,1329" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The back of the van is filled with the largest laundry hamper you&#39;ve ever set eyes on. Leaning over the edge of the hamper, you see that it&#39;s about half-full already with a pile of aprons, towels, and oven gloves splattered and dusted with various types of flours, jams, and creams.
 
 Nothing about these articles catches your eye, perhaps intentionally, as they&#39;re all colored in the Baking Show&#39;s signature muted tan, which was intentionally chosen so as to not distract from the bakes themselves. You can always [[dig around in the hamper-&gt;Laundry Van: Hamper]] if you want to look closer, though.
 
-[[Investigating the rest of the van.-&gt;Laundry Van]]</tw-passagedata><tw-passagedata pid="42" name="Technical&#39;s Car: BakeBuddy" tags="" position="1260,1555" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigating the rest of the van.-&gt;Laundry Van]]</tw-passagedata><tw-passagedata pid="41" name="Technical&#39;s Car: BakeBuddy" tags="" position="1260,1555" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You pick one of the BakeBuddy boxes at random to open. You slide a fingernail down along the edge to rip open the shrink wrap, then flip open the cardboard tab that keeps the lid of the box shut securely to begin your own private unboxing party.
 
@@ -446,13 +424,13 @@ Inside, you find a warranty card, operating manual, and the BakeBuddy itself, al
 
 Sadly, you do not find the optional layering attachment. Rip off.
 
-[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="43" name="Laundry Van: Hamper" tags="" position="1466,1307" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of the SUV.-&gt;Technical&#39;s Car]]</tw-passagedata><tw-passagedata pid="42" name="Laundry Van: Hamper" tags="" position="1466,1307" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You stuff your arms deep into the hamper and begin to sift through the various articles of laundry. Almost immediately, you uncover something that doesn&#39;t match the rest of the laundry: a muffin-topped baker&#39;s hat in a light-green floral print.
 
 A sticky, dark red stain on the brim catches your eye as you unfold the hat. However, a quick sniff test reveals that this stain is not blood; rather, it is an ample quantity of raspberry jam.
 
-[[Investigating the rest of the van.-&gt;Laundry Van]]</tw-passagedata><tw-passagedata pid="44" name="Photo: Paul&#39;s Family" tags="" position="1011,11" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigating the rest of the van.-&gt;Laundry Van]]</tw-passagedata><tw-passagedata pid="43" name="Photo: Paul&#39;s Family" tags="" position="1011,11" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 Nestled in the corner of the article is a photo of Paul at a table in some idyllic seaside villa on the Mediterranean coast. His hand is resting on the leg of the woman sitting next to him, and they&#39;re both smiling at the camera.  A pouty-faced teen sits opposite them, staunchly refusing to meet the camera&#39;s gaze.
 
@@ -466,19 +444,19 @@ _Paul and Alex Holyroot celebrate their tenth wedding anniversary on a family va
 
 ***
 
-[[Continue reading the profile.-&gt;Magazine: Paul&#39;s Profile]]</tw-passagedata><tw-passagedata pid="45" name="Bathroom: Wicker Basket" tags="" position="1457,988" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Continue reading the profile.-&gt;Magazine: Paul&#39;s Profile]]</tw-passagedata><tw-passagedata pid="44" name="Bathroom: Wicker Basket" tags="" position="1457,988" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You pinch your nostrils closed and lift up the lid of the basket. Your eyes confirm what your nose was already telling you. The pile of used hand towels inside has been soaked in an honestly impressive amount of human vomit.
 
 Leaning in closer (and against your better judgment), you determine that the deluge was comprised mostly of thin bile and contains very little actual food content. The top towel appears to have had the mess soak into it from the bottom-up rather than splattered down from above.
 
-With great relief, you close the lid and [[examine the rest of the countertop.-&gt;Bathroom: Counter]]</tw-passagedata><tw-passagedata pid="46" name="Bathroom: Counter" tags="" position="1134,915" size="100,100">{embed passage:&#39;Take Turn&#39;}
+With great relief, you close the lid and [[examine the rest of the countertop.-&gt;Bathroom: Counter]]</tw-passagedata><tw-passagedata pid="45" name="Bathroom: Counter" tags="" position="1134,915" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 A terrible smell assails your nostrils as you step over towards the marble countertop that houses the sinks. It doesn&#39;t take long to locate the source: [[a lidded wicker basket-&gt;Bathroom: Wicker Basket]] pushed back under the countertop.
 
 Apart from that one concession to practicality, the rest of this side of the bathroom appears to be devoted to aesthetic minimalism. Apart from a small pile of folded white hand towels placed neatly between the sinks, the counter is completely bare -- even the soap dispensers are built right into the marble. You&#39;re left with little to investigate other than the [[large, bronze-rimmed mirror-&gt;Bathroom: Mirror]] and the [[sinks themselves-&gt;Bathroom: Sinks]].
 
-[[Explore the rest of the bathroom.-&gt;Bathroom: Antechamber]]</tw-passagedata><tw-passagedata pid="47" name="Bathroom: Interior" tags="" position="1659,913" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Explore the rest of the bathroom.-&gt;Bathroom: Antechamber]]</tw-passagedata><tw-passagedata pid="46" name="Bathroom: Interior" tags="" position="1659,913" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 This side of the bathroom is definitely more geared more towards practicality than aesthetics. In contrast to the spare minimalism of the antechamber, this side is crowded with concessions to the crass necessities of the human body.
 
@@ -486,13 +464,13 @@ Almost half the room is taken up by a [[massive claw-footed bathtub-&gt;Bathroom
 
 The toilet itself is unremarkable, but next to it is an additional sink is set into the top of an [[oak bathroom cabinet-&gt;Bathroom: Cabinet]].
 
-[[Step back through the door to the antechamber.-&gt;Bathroom: Antechamber]]</tw-passagedata><tw-passagedata pid="48" name="Bathroom: Mirror" tags="" position="1287,1007" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Step back through the door to the antechamber.-&gt;Bathroom: Antechamber]]</tw-passagedata><tw-passagedata pid="47" name="Bathroom: Mirror" tags="" position="1287,1007" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 Hey there, good lookin&#39;! The lighting in this bathroom is very flattering, and you take a moment to admire yourself in the mirror.
 
 Apart from a couple of toothpaste splatters towards the bottom, the mirror is utterly spotless. The housekeeping is clearly on top of their game here.
 
-[[Keep examining the countertop.-&gt;Bathroom: Counter]]</tw-passagedata><tw-passagedata pid="49" name="Bathroom: Sinks" tags="" position="967,952" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep examining the countertop.-&gt;Bathroom: Counter]]</tw-passagedata><tw-passagedata pid="48" name="Bathroom: Sinks" tags="" position="967,952" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The sinks have been meticulously cut out of the larger marble countertop, and you have to take a moment to admire the workmanship that went into creating them.
 
@@ -500,37 +478,37 @@ You examine each sink carefully, even running a finger around their edges to try
 
 You turn your attention to the hand towels piled neatly between the sinks, but this also proves to be fruitless. Each towel is perfectly white and unblemished.
 
-[[Keep examining the countertop.-&gt;Bathroom: Counter]]</tw-passagedata><tw-passagedata pid="50" name="Bathroom: Bathtub" tags="" position="1612,1067" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep examining the countertop.-&gt;Bathroom: Counter]]</tw-passagedata><tw-passagedata pid="49" name="Bathroom: Bathtub" tags="" position="1612,1067" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The tub itself appears to be an antique, but one that&#39;s been well taken care of over the years. It&#39;s also absolutely massive. You&#39;re certain you could lay your whole body down in it with inches to spare. They don&#39;t make bathtubs like this anymore.
 
 The tub is quite clean, but a little damp. It hasn&#39;t fully dried off since the last time the bath was run.
 
-[[Explore the rest of the bathroom.-&gt;Bathroom: Interior]].</tw-passagedata><tw-passagedata pid="51" name="Bathroom: Cabinet" tags="" position="1829,1018" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Explore the rest of the bathroom.-&gt;Bathroom: Interior]].</tw-passagedata><tw-passagedata pid="50" name="Bathroom: Cabinet" tags="" position="1829,1018" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You rifle through the bathroom cabinet. It&#39;s all unremarkable stuff, and clearly meant more for the manor&#39;s staff than the guests.
 
 You pull out various cleaning products and sponges, a toilet brush, a small plunger, some rubber gloves, a bottle of drain cleaner, and a [[small zip-up first aid kit-&gt;Bathroom: First Aid Kit]].
 
-[[Continue investigating the bathroom.-&gt;Bathroom: Interior]].</tw-passagedata><tw-passagedata pid="52" name="Bathroom: First Aid Kit" tags="" position="1801,1188" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Continue investigating the bathroom.-&gt;Bathroom: Interior]].</tw-passagedata><tw-passagedata pid="51" name="Bathroom: First Aid Kit" tags="" position="1801,1188" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You unzip the first aid kit and start pulling things out of it. At first, nothing catches your eye -- there are band-aids in various sizes, some gauze, a tube of anti-septic paste, a bottle of antacids -- nothing to cause alarm of arouse suspicion.
 
 Nestled at the very bottom of the kit, you find an [[unlabeled green pill bottle-&gt;Bathroom: Pill Bottle]].
 
-[[Go back to investigating the bathroom.-&gt;Bathroom: Interior]].</tw-passagedata><tw-passagedata pid="53" name="Bathroom: Pill Bottle" tags="" position="1982,990" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Go back to investigating the bathroom.-&gt;Bathroom: Interior]].</tw-passagedata><tw-passagedata pid="52" name="Bathroom: Pill Bottle" tags="" position="1982,990" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You pop the top off of the pill bottle and tip the contents into your hand. Three dusty white pills fall out into your palm, each of which is stamped with a crude image in silhouette.
 
 The pills have begun to crumble away in the bottle, making it hard to identify the image with any confidence. If you had to guess, though, it looks sort of like a horse&#39;s head in silhouette.
 
-[[Investigate the rest of the bathroom.-&gt;Bathroom: Interior]].</tw-passagedata><tw-passagedata pid="54" name="Partygoer&#39;s Car: Burger Bag" tags="" position="1981,1621" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigate the rest of the bathroom.-&gt;Bathroom: Interior]].</tw-passagedata><tw-passagedata pid="53" name="Partygoer&#39;s Car: Burger Bag" tags="" position="1981,1621" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You tug the greasy paper bag out from its hiding place and unfurl it. It smells strongly of fries and chicken nuggets, but its contents feel hard and round, and it rattles as you move it.
 
 You open the bag up and take out several unlabeled green pill bottles. You pop the tops off of each in turn and pour the contents into your hands. Each bottle contains the same thing: a number of round white pills with ~~ASPIRIN~~ stamped in a ring around the edge.
 
-[[Keep examining the trunk.-&gt;Partygoer&#39;s Car: Trunk]]</tw-passagedata><tw-passagedata pid="55" name="Partygoer&#39;s Car: iPad" tags="" position="1583,1493" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep examining the trunk.-&gt;Partygoer&#39;s Car: Trunk]]</tw-passagedata><tw-passagedata pid="54" name="Partygoer&#39;s Car: iPad" tags="" position="1583,1493" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You press the power button on the top of the iPad, and its home screen blinks into existence without prompting for a password. Apparently {player.partygoer} has a thing or two to learn about digital security.
 
@@ -542,17 +520,17 @@ A few apps are arranged prominently on the home screen:
 &gt; [[Web Browser-&gt;Partygoer&#39;s Car: Web Browser]]
 
 
-[[Put down the iPad.-&gt;Partygoer&#39;s Car]]</tw-passagedata><tw-passagedata pid="56" name="Partygoer&#39;s Car: Trunk" tags="" position="1857,1475" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Put down the iPad.-&gt;Partygoer&#39;s Car]]</tw-passagedata><tw-passagedata pid="55" name="Partygoer&#39;s Car: Trunk" tags="" position="1857,1475" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 If you thought the cab of {player.partygoer}&#39;s convertible was small, the trunk is even smaller. The small, gold-trimmed [[rolling suitcase-&gt;Partygoer&#39;s Car: Suitcase]] squeezed inside spans almost its entire width, although you also see what looks like the corner of a [[greasy fast food bag-&gt;Partygoer&#39;s Car: Burger Bag]] poking out from around the side of the suitcase.
 
-[[Investigate the rest of the convertible.-&gt;Partygoer&#39;s Car]].</tw-passagedata><tw-passagedata pid="57" name="Partygoer&#39;s Car: Suitcase" tags="" position="1752,1620" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigate the rest of the convertible.-&gt;Partygoer&#39;s Car]].</tw-passagedata><tw-passagedata pid="56" name="Partygoer&#39;s Car: Suitcase" tags="" position="1752,1620" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You unzip the suitcase and begin to pick through its contents. It&#39;s all the kinds of things you&#39;d expect -- a UK passport with {player.partygoer}&#39;s name and photo, a boarding pass with the arrival date listed as yesterday morning, a few changes of clothes, a USB charger, and so on.
 
 The most unusual item is a large washbag, which contains an almost shockingly wide number and variety of cosmetic products.
 
-[[Keep examining the trunk.-&gt;Partygoer&#39;s Car: Trunk]]</tw-passagedata><tw-passagedata pid="58" name="Partygoer&#39;s Car: Web Browser" tags="" position="1226,1756" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep examining the trunk.-&gt;Partygoer&#39;s Car: Trunk]]</tw-passagedata><tw-passagedata pid="57" name="Partygoer&#39;s Car: Web Browser" tags="" position="1226,1756" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The browser opens to a basic search engine. You tap on the search field to highlight it, and a list of recent search terms pops up.
 
@@ -575,7 +553,7 @@ The browser opens to a basic search engine. You tap on the search field to highl
 
 ***
 
-[[Press the home button.-&gt;Partygoer&#39;s Car: iPad]]</tw-passagedata><tw-passagedata pid="59" name="Partygoer&#39;s Car: Email" tags="" position="1380,1756" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Press the home button.-&gt;Partygoer&#39;s Car: iPad]]</tw-passagedata><tw-passagedata pid="58" name="Partygoer&#39;s Car: Email" tags="" position="1380,1756" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 {player.partygoer} maintains an impressively tidy inbox. The email client only shows a few emails have been automatically tagged as high-priority.
 
@@ -583,7 +561,7 @@ The browser opens to a basic search engine. You tap on the search field to highl
 &gt; [[[USC Admissions Dept]-&gt;Partygoer&#39;s Car: USC Admissions Dept]]
 
 
-[[Press the home button.-&gt;Partygoer&#39;s Car: iPad]]</tw-passagedata><tw-passagedata pid="60" name="Partygoer&#39;s Car: Banking" tags="" position="1515,1756" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Press the home button.-&gt;Partygoer&#39;s Car: iPad]]</tw-passagedata><tw-passagedata pid="59" name="Partygoer&#39;s Car: Banking" tags="" position="1515,1756" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You thumb open the banking app, and a list of accounts and credit cards appears on screen.
 
@@ -596,7 +574,7 @@ You thumb open the banking app, and a list of accounts and credit cards appears 
 
 
 [continue]
-[[Press the home button.-&gt;Partygoer&#39;s Car: iPad]]</tw-passagedata><tw-passagedata pid="61" name="Partygoer&#39;s Car: Messages" tags="" position="1647,1753" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Press the home button.-&gt;Partygoer&#39;s Car: iPad]]</tw-passagedata><tw-passagedata pid="60" name="Partygoer&#39;s Car: Messages" tags="" position="1647,1753" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You open the messaging app. It looks like {player.partygoer} hasn&#39;t been using it for very long, as there are only a couple of conversations saved onto the device.
 
@@ -604,7 +582,7 @@ You open the messaging app. It looks like {player.partygoer} hasn&#39;t been usi
 &gt; [[[NoCannesDo]-&gt;Partygoer&#39;s Car: NoCannesDo]]
 
 
-[[Press the home button.-&gt;Partygoer&#39;s Car: iPad]]</tw-passagedata><tw-passagedata pid="62" name="Partygoer&#39;s Car: OxfordComa" tags="" position="1573,1901" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Press the home button.-&gt;Partygoer&#39;s Car: iPad]]</tw-passagedata><tw-passagedata pid="61" name="Partygoer&#39;s Car: OxfordComa" tags="" position="1573,1901" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 ***
 
@@ -634,7 +612,7 @@ exactly 😘
 
 ***
 
-[[Read the other messages-&gt;Partygoer&#39;s Car: Messages]]</tw-passagedata><tw-passagedata pid="63" name="Partygoer&#39;s Car: NoCannesDo" tags="" position="1722,1903" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Read the other messages-&gt;Partygoer&#39;s Car: Messages]]</tw-passagedata><tw-passagedata pid="62" name="Partygoer&#39;s Car: NoCannesDo" tags="" position="1722,1903" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 ***
 
@@ -696,7 +674,7 @@ where the fuck are you
 
 ***
 
-[[Read the other messages-&gt;Partygoer&#39;s Car: Messages]]</tw-passagedata><tw-passagedata pid="64" name="Partygoer&#39;s Car: Mummy Email" tags="" position="1290,1941" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Read the other messages-&gt;Partygoer&#39;s Car: Messages]]</tw-passagedata><tw-passagedata pid="63" name="Partygoer&#39;s Car: Mummy Email" tags="" position="1290,1941" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 ***
 
@@ -718,7 +696,7 @@ Mummy
 
 ***
 
-[[Return to the inbox-&gt;Partygoer&#39;s Car: Email]]</tw-passagedata><tw-passagedata pid="65" name="Partygoer&#39;s Car: USC Admissions Dept" tags="" position="1429,1941" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Return to the inbox-&gt;Partygoer&#39;s Car: Email]]</tw-passagedata><tw-passagedata pid="64" name="Partygoer&#39;s Car: USC Admissions Dept" tags="" position="1429,1941" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 ***
 
@@ -746,7 +724,7 @@ Director, Financial Aid
 
 ***
 
-[[Return to the inbox-&gt;Partygoer&#39;s Car: Email]]</tw-passagedata><tw-passagedata pid="66" name="Dumpster: Interior" tags="" position="449,575" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Return to the inbox-&gt;Partygoer&#39;s Car: Email]]</tw-passagedata><tw-passagedata pid="65" name="Dumpster: Interior" tags="" position="449,575" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You prop open the dumpster&#39;s lid and carefully poke your head over the edge.
 
@@ -754,7 +732,7 @@ The smell hits you like punch in the stomach. The Baking Show gets through a lot
 
 It&#39;s too dark to really see anything inside the dumpster, and the way your eyes are starting to water isn&#39;t helping anything. If you pinch your nose shut, you might be able to [[get a closer look-&gt;Dumpster: Interior 2]].
 
-If you&#39;re sensible, though, you&#39;ll probably [[close the dumpster-&gt;The Dumpster]] and take a step back.</tw-passagedata><tw-passagedata pid="67" name="Dumpster: Interior 2" tags="" position="291,575" size="100,100">{embed passage:&#39;Take Turn&#39;}
+If you&#39;re sensible, though, you&#39;ll probably [[close the dumpster-&gt;The Dumpster]] and take a step back.</tw-passagedata><tw-passagedata pid="66" name="Dumpster: Interior 2" tags="" position="291,575" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 Your pinch your nose hard between your thumb and forefinger and lean your head further inside the dumpster. Any relief you gained from restricting the airflow to your nose is immediately counter-acted by your increased proximity to the source of the smell. The stench is all encompassing. You feel it creeping in through your mouth and probing at your eyes: sweet, stinging, and inescapable.
 
@@ -762,18 +740,18 @@ You&#39;re blinking back tears now, but your eyes are beginning to adjust to the
 
 If you stand on your tip-toes, you might just be able to [[grab it between your fingertips-&gt;Dumpster: Interior 3]].
 
-You could also take mercy on yourself and [[step away for some fresh air-&gt;The Dumpster]].</tw-passagedata><tw-passagedata pid="68" name="Dumpster: Interior 3" tags="" position="298,427" size="100,100">You swipe at the fabric scrap. Your fingertips brush against it, but it&#39;s just out of your reach.
+You could also take mercy on yourself and [[step away for some fresh air-&gt;The Dumpster]].</tw-passagedata><tw-passagedata pid="67" name="Dumpster: Interior 3" tags="" position="298,427" size="100,100">You swipe at the fabric scrap. Your fingertips brush against it, but it&#39;s just out of your reach.
 
 You wriggle yourself further over the lip of the dumpster and swipe again. You feel your chest slip slightly on the moist plastic edge, and suddenly you&#39;re pitching forwards, sliding head-over-heels into the dumpster&#39;s open maw.
 
-[[Oh.-&gt;Dumpster: Interior 4]]</tw-passagedata><tw-passagedata pid="69" name="Dumpster: Interior 4" tags="" position="301,300" size="100,100">config.header.left: &quot;Hell&quot;
+[[Oh.-&gt;Dumpster: Interior 4]]</tw-passagedata><tw-passagedata pid="68" name="Dumpster: Interior 4" tags="" position="301,300" size="100,100">config.header.left: &quot;Hell&quot;
 --
 
-{reveal link: &quot;oh no&quot;, passage: &quot;Dumpster: Hell 1&quot;}</tw-passagedata><tw-passagedata pid="70" name="Dumpster: Hell 1" tags="" position="27,218" size="100,100">{reveal link: &quot;oh god&quot;, passage: &quot;Dumpster: Hell 2&quot;}</tw-passagedata><tw-passagedata pid="71" name="Dumpster: Hell 2" tags="" position="27,335" size="100,100">{reveal link: &quot;The smell is everywhere&quot;, passage: &quot;Dumpster: Hell 3&quot;}</tw-passagedata><tw-passagedata pid="72" name="Dumpster: Hell 3" tags="" position="22,458" size="100,100">{reveal link: &quot;It&#39;s in your nose&quot;, passage: &quot;Dumpster: Hell 4&quot;}</tw-passagedata><tw-passagedata pid="73" name="Dumpster: Hell 4" tags="" position="19,574" size="100,100">{reveal link: &quot;in your eyes&quot;, passage: &quot;Dumpster: Hell 5&quot;}</tw-passagedata><tw-passagedata pid="74" name="Dumpster: Hell 5" tags="" position="20,705" size="100,100">{reveal link: &quot;in your mouth.&quot;, passage: &quot;Dumpster: Hell 6&quot;}</tw-passagedata><tw-passagedata pid="75" name="Dumpster: Hell 6" tags="" position="157,220" size="100,100">{reveal link: &quot;Your drag your way to the surface, coughing and heaving.  A pint of yogurt slides off your head with a low sucking sound, leaving a thick trail of something green and lumpy through your hair.&quot;, passage: &quot;Dumpster: Hell 7&quot;}</tw-passagedata><tw-passagedata pid="76" name="Dumpster: Hell 7" tags="" position="159,336" size="100,100">{reveal link: &quot;Your rub your face with your hands to try and clear the gunk from your away, but it only makes things worse. You yelp in pain as something acrid touches your eye  -- _Is it old lemon juice? Stagnant milk? Industrial cleaner? Who can say?_ -- and the pain jolts you to your senses.&quot;, passage: &quot;Dumpster: Hell 8&quot;}</tw-passagedata><tw-passagedata pid="77" name="Dumpster: Hell 8" tags="" position="152,465" size="100,100">{reveal link: &quot;You spot it&quot;, passage: &quot;Dumpster: Hell 9&quot;}</tw-passagedata><tw-passagedata pid="78" name="Dumpster: Hell 9" tags="" position="155,585" size="100,100">{reveal link: &quot;Floating just a few feet in front of you: a small bundle of god-knows-what, wrapped in a bolt of stained, green fabric&quot;, passage: &quot;Dumpster: Hell 10&quot;}</tw-passagedata><tw-passagedata pid="79" name="Dumpster: Hell 10" tags="" position="157,708" size="100,100">{reveal link: &quot;You grab the bundle and haul yourself up and over the edge of the dumpster.&quot;, passage: &quot;Dumpster: Hell Final&quot;}</tw-passagedata><tw-passagedata pid="80" name="Dumpster: Hell Final" tags="" position="429,160" size="100,100">keys.weapon:true
+{reveal link: &quot;oh no&quot;, passage: &quot;Dumpster: Hell 1&quot;}</tw-passagedata><tw-passagedata pid="69" name="Dumpster: Hell 1" tags="" position="27,218" size="100,100">{reveal link: &quot;oh god&quot;, passage: &quot;Dumpster: Hell 2&quot;}</tw-passagedata><tw-passagedata pid="70" name="Dumpster: Hell 2" tags="" position="27,335" size="100,100">{reveal link: &quot;The smell is everywhere&quot;, passage: &quot;Dumpster: Hell 3&quot;}</tw-passagedata><tw-passagedata pid="71" name="Dumpster: Hell 3" tags="" position="22,458" size="100,100">{reveal link: &quot;It&#39;s in your nose&quot;, passage: &quot;Dumpster: Hell 4&quot;}</tw-passagedata><tw-passagedata pid="72" name="Dumpster: Hell 4" tags="" position="19,574" size="100,100">{reveal link: &quot;in your eyes&quot;, passage: &quot;Dumpster: Hell 5&quot;}</tw-passagedata><tw-passagedata pid="73" name="Dumpster: Hell 5" tags="" position="20,705" size="100,100">{reveal link: &quot;in your mouth.&quot;, passage: &quot;Dumpster: Hell 6&quot;}</tw-passagedata><tw-passagedata pid="74" name="Dumpster: Hell 6" tags="" position="157,220" size="100,100">{reveal link: &quot;Your drag your way to the surface, coughing and heaving.  A pint of yogurt slides off your head with a low sucking sound, leaving a thick trail of something green and lumpy through your hair.&quot;, passage: &quot;Dumpster: Hell 7&quot;}</tw-passagedata><tw-passagedata pid="75" name="Dumpster: Hell 7" tags="" position="159,336" size="100,100">{reveal link: &quot;Your rub your face with your hands to try and clear the gunk from your away, but it only makes things worse. You yelp in pain as something acrid touches your eye  -- _Is it old lemon juice? Stagnant milk? Industrial cleaner? Who can say?_ -- and the pain jolts you to your senses.&quot;, passage: &quot;Dumpster: Hell 8&quot;}</tw-passagedata><tw-passagedata pid="76" name="Dumpster: Hell 8" tags="" position="152,465" size="100,100">{reveal link: &quot;You spot it&quot;, passage: &quot;Dumpster: Hell 9&quot;}</tw-passagedata><tw-passagedata pid="77" name="Dumpster: Hell 9" tags="" position="155,585" size="100,100">{reveal link: &quot;Floating just a few feet in front of you: a small bundle of god-knows-what, wrapped in a bolt of stained, green fabric&quot;, passage: &quot;Dumpster: Hell 10&quot;}</tw-passagedata><tw-passagedata pid="78" name="Dumpster: Hell 10" tags="" position="157,708" size="100,100">{reveal link: &quot;You grab the bundle and haul yourself up and over the edge of the dumpster.&quot;, passage: &quot;Dumpster: Hell Final&quot;}</tw-passagedata><tw-passagedata pid="79" name="Dumpster: Hell Final" tags="" position="429,160" size="100,100">keys.weapon:true
 
 --
 
-[[You are free-&gt;Dumpster: Weapon]]</tw-passagedata><tw-passagedata pid="81" name="Dumpster: Weapon" tags="" position="429,308" size="100,100">You unwrap the bundle with shaking hands. The cloth wrapping is soaked and stuck together with trash juice, but you grit your teeth and patiently unwind the bundle layer by layer.
+[[You are free-&gt;Dumpster: Weapon]]</tw-passagedata><tw-passagedata pid="80" name="Dumpster: Weapon" tags="" position="429,308" size="100,100">You unwrap the bundle with shaking hands. The cloth wrapping is soaked and stuck together with trash juice, but you grit your teeth and patiently unwind the bundle layer by layer.
 
 After you peel away the first few layers, the light-green fabric gives way to a deep red stain. Your heart catches in your throat, and you almost drop the bundle as you realize that the fabric wrapping is soaked in blood.
 
@@ -781,13 +759,13 @@ You hurriedly pull away the cloth to reveal the contents of the bundle: a heavy,
 
 Now that you&#39;ve fully unwrapped the sopping cloth from its contents, you realize that it&#39;s not just any random bolt of cloth, either: it&#39;s a baker&#39;s apron. Beneath all the blood and trash stains, you can just about make out a light-green floral print.
 
-When you&#39;re finished looking, you [[step back from the dumpster-&gt;The Dumpster]] for some fresh air.</tw-passagedata><tw-passagedata pid="82" name="Paul&#39;s Dressing Room: Memorabilia" tags="" position="2642,1124" size="100,100">{embed passage:&#39;Take Turn&#39;}
+When you&#39;re finished looking, you [[step back from the dumpster-&gt;The Dumpster]] for some fresh air.</tw-passagedata><tw-passagedata pid="81" name="Paul&#39;s Dressing Room: Memorabilia" tags="" position="2642,1124" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The walls are bedecked in mementos from Paul&#39;s burgeoning racing career. There are numerous flags and posters commemorating events and places where Paul has raced: Britcar, Le Mans, Circuit of the Americas, Silverstone.
 
 There&#39;s even what appears to be a real Aston Martin steering wheel mounted on a plaque that reads ~~Beachdeen AMR, 2015~~.
 
-[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="83" name="Paul&#39;s Dressing Room: Desk" tags="" position="2792,1124" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="82" name="Paul&#39;s Dressing Room: Desk" tags="" position="2792,1124" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 Although most of Paul&#39;s desk is taken up by his racing setup, there&#39;s still a little room left for the kinds of things you would normally expect to find on a writing desk.
 
@@ -799,7 +777,7 @@ Next to the photograph is a [[paper tea cup-&gt;Paul&#39;s Dressing Room: Teacup
 
 On the other side is what looks like a leather-bound [[checkbook-&gt;Pauls&#39; Dressing Room: Checkbook]].
 
-[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="84" name="Paul&#39;s Dressing Room: Arcade" tags="" position="3052,1144" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="83" name="Paul&#39;s Dressing Room: Arcade" tags="" position="3052,1144" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 Paul&#39;s racing setup is seriously impressive. He&#39;s got three HD monitors, a full desktop audio setup with two speakers and a dedicated subwoofer, and a top of the line, force feedback-equipped USB racing wheel, all powered off of a high-end gaming laptop. It looks like Paul took his racing simulators seriously.
 
@@ -809,7 +787,7 @@ You try to turn the laptop on, but it refuses to boot. The keyboard is soaked in
 
 You give the laptop a gentle shake to see if that helps at all. While the computer remains committed to not turning on, you do notice a the corner of a [[piece of paper-&gt;Paul&#39;s Dressing Room: Racing Times]] sticking out from underneath it.
 
-[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="85" name="Paul&#39;s Dressing Room: Body" tags="" position="2925,1145" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="84" name="Paul&#39;s Dressing Room: Body" tags="" position="2925,1145" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 It&#39;s not hard to tell what killed Paul. There appear to be several regions of severe blunt trauma around back and sides of his head. His skull looks oddly misshapen, and there are patches of deep, dark red soaking through his short-cropped silver hair. 
 
@@ -820,7 +798,7 @@ You carefully lift his body away from the desk and prop it upright in his chair.
 You carefully pat down Paul&#39;s body, but find little else of interest. Apart from a wicked case of keyboard face, he has no other visible injuries. His wallet is still in his jeans pocket, and nothing appears to have been taken from it.
 
 
-[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="86" name="Paul&#39;s Dressing Room: Bed" tags="" position="3282,1161" size="100,100">--
+[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="85" name="Paul&#39;s Dressing Room: Bed" tags="" position="3197,1141" size="100,100">--
 
 {embed passage:&#39;Take Turn&#39;}
 
@@ -830,13 +808,13 @@ You pull the sheets off the bed and fluff the pillows experimentally, but find n
 
 You have to squeeze by the wardrobe several times during your examination, as there is not much room between it and the head of the bed. You notice that one of the heavy iron brackets on the corner of the wardrobe is missing a nail, leaving a small hole through to the wardrobe&#39;s interior.
 
-[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="87" name="Paul&#39;s Dressing Room: Wardrobe" tags="" position="3392,1124" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="86" name="Paul&#39;s Dressing Room: Wardrobe" tags="" position="3392,1124" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The wardrobe is a gorgeous antique piece. Each side is a single slab of ancient oak, joined at the corners by heavy iron brackets afixed with large, dome-headed nails.
 
 A full-length mirror is set into the front of the [[wardrobe&#39;s door-&gt;Paul&#39;s Dressing Room: Wardrobe Interior]].
 
-[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="88" name="Paul&#39;s Dressing Room: Racing Times" tags="" position="3050,1296" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="87" name="Paul&#39;s Dressing Room: Racing Times" tags="" position="3050,1296" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You pull the slip of paper out from under the laptop and examine it. It contains a handwritten table of some sort:
 
@@ -877,13 +855,13 @@ _10:25 PM -- 3:21:10_
 
 ***
 
-[[Keep examining Paul&#39;s gaming setup.-&gt;Paul&#39;s Dressing Room: Arcade]]</tw-passagedata><tw-passagedata pid="89" name="Paul&#39;s Dressing Room: Wardrobe Interior" tags="" position="3434,1276" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep examining Paul&#39;s gaming setup.-&gt;Paul&#39;s Dressing Room: Arcade]]</tw-passagedata><tw-passagedata pid="88" name="Paul&#39;s Dressing Room: Wardrobe Interior" tags="" position="3434,1276" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You open the door to the standing wardrobe. You&#39;ve never seen so many sets of collared shirts and jeans in your life.
 
 You run your fingers down the back and sides of the wardrobe. You&#39;re surprised when your fingers brush against what feels a [[small plastic box-&gt;Paul&#39;s Dressing Room: Camera]].
 
-[[Close the door.-&gt;Paul&#39;s Dressing Room: Wardrobe]]</tw-passagedata><tw-passagedata pid="90" name="Paul&#39;s Dressing Room: Camera" tags="" position="3435,1426" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Close the door.-&gt;Paul&#39;s Dressing Room: Wardrobe]]</tw-passagedata><tw-passagedata pid="89" name="Paul&#39;s Dressing Room: Camera" tags="" position="3435,1426" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The box is stuck to the side of the wardrobe with some kind of glue, but you wiggle it back and forth gently until it comes away into your hand.
 
@@ -891,7 +869,7 @@ You examine the box carefully, turning it back and forth under the light. It&#39
 
 The box&#39;s other sides are completely featureless, and there are no visible controls anywhere on its outside. There is a single word stamped onto the bottom of the device in a font so small you have to squint to read it: ~~Larabee~~.
 
-[[Put the camera back where you found it.-&gt;Paul&#39;s Dressing Room: Wardrobe Interior]]</tw-passagedata><tw-passagedata pid="91" name="Creative&#39;s Station: Bake" tags="" position="1387,599" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Put the camera back where you found it.-&gt;Paul&#39;s Dressing Room: Wardrobe Interior]]</tw-passagedata><tw-passagedata pid="90" name="Creative&#39;s Station: Bake" tags="" position="1387,599" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 It looks like it would have been one hell of a showstopper bake. It appears to have been a miniature model of the Seattle Center, including a spongecake Space Needle suspended on an armature of homemade breadsticks and an adjoining &#39;glass garden&#39; featuring intricate, varicolored sculptures of spun sugar.
 
@@ -900,11 +878,11 @@ Now that Paul is dead, it&#39;s unlikely that this bake will ever make it to TV.
 As you sift through the remains, you&#39;re surprised to find a [[crumpled piece of paper-&gt;Creative&#39;s Station: Note]] buried under a large slab of fondant.
 
 
-[[Examine the rest of {player.creative}&#39;s station.-&gt;Creative&#39;s Station]]</tw-passagedata><tw-passagedata pid="92" name="Creative&#39;s Station: Stains" tags="" position="1399,434" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the rest of {player.creative}&#39;s station.-&gt;Creative&#39;s Station]]</tw-passagedata><tw-passagedata pid="91" name="Creative&#39;s Station: Stains" tags="" position="1399,434" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 While the stains look vicious, a quick sniff test reveals them to be nothing more than a hearty serving of raspberry jam.
 
-[[Examine the rest of {player.creative}&#39;s station.-&gt;Creative&#39;s Station]]</tw-passagedata><tw-passagedata pid="93" name="Creative&#39;s Station: Notebook" tags="" position="1234,455" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the rest of {player.creative}&#39;s station.-&gt;Creative&#39;s Station]]</tw-passagedata><tw-passagedata pid="92" name="Creative&#39;s Station: Notebook" tags="" position="1234,455" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You brush the dust off of the notebook and crack it open. The handwriting within is large and messy, and the various notes and ideas seem to jump around from page to page seemingly at random.
 
@@ -945,7 +923,7 @@ _start breadsticks earlier, proof 40m_
 
 ***
 
-[[Examine the rest of {player.creative}&#39;s station.-&gt;Creative&#39;s Station]]</tw-passagedata><tw-passagedata pid="94" name="Creative&#39;s Station: Note" tags="" position="1519,492" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the rest of {player.creative}&#39;s station.-&gt;Creative&#39;s Station]]</tw-passagedata><tw-passagedata pid="93" name="Creative&#39;s Station: Note" tags="" position="1519,492" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You carefully unfold the note, brushing as much icing off of it as you can. You can&#39;t resist licking your fingers clean afterwards. The vanilla is subtle, but not overpowering, and is that a hint of amaretto you detect? Delicious.
 
@@ -961,7 +939,7 @@ _-P_
 &lt;/blockquote&gt;
 
 
-[[Examine the rest of {player.creative}&#39;s station.-&gt;Creative&#39;s Station]]</tw-passagedata><tw-passagedata pid="95" name="Technical&#39;s Station: Drawers" tags="" position="1350,163" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the rest of {player.creative}&#39;s station.-&gt;Creative&#39;s Station]]</tw-passagedata><tw-passagedata pid="94" name="Technical&#39;s Station: Drawers" tags="" position="1350,163" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You make your way through the many drawers set into the side of {player.technical}&#39;s station and lay their contents along the top of the counter.
 
@@ -969,7 +947,7 @@ You pull out an absolute treasure trove of baking supplies: there are baking tra
 
 At the bottom of the drawer, you find what appears to be a [[small keyfob-&gt;Technical&#39;s Station: Keyfob]] made out of dull gray plastic.
 
-[[Examine the rest of {player.technical}&#39;s station.-&gt;Technical&#39;s Station]]</tw-passagedata><tw-passagedata pid="96" name="Technical&#39;s Station: Recipes" tags="" position="1575,228" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the rest of {player.technical}&#39;s station.-&gt;Technical&#39;s Station]]</tw-passagedata><tw-passagedata pid="95" name="Technical&#39;s Station: Recipes" tags="" position="1575,228" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The folder contains printouts of three different recipes:
 
@@ -980,7 +958,7 @@ The folder contains printouts of three different recipes:
 
 
 [[Examine the rest of {player.technical}&#39;s station.-&gt;Technical&#39;s Station]]
-</tw-passagedata><tw-passagedata pid="97" name="Creative&#39;s Station: Drawers" tags="" position="1072,466" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="96" name="Creative&#39;s Station: Drawers" tags="" position="1072,466" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You rifle through the various drawers that run down the side of {player.creative}&#39;s station. The production crew aren&#39;t messing around when they kit these things out.
 
@@ -988,7 +966,7 @@ In addition to the baking trays and spatulas on top of the counter, you find a v
 
 What you don&#39;t find is anything that would indicate criminal activity, unless the crime in question involves making a delicious dessert.
 
-[[Examine the rest of {player.creative}&#39;s station.-&gt;Creative&#39;s Station]]</tw-passagedata><tw-passagedata pid="98" name="Recipe: Paul&#39;s Soda Bread" tags="" position="1392,41" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the rest of {player.creative}&#39;s station.-&gt;Creative&#39;s Station]]</tw-passagedata><tw-passagedata pid="97" name="Recipe: Paul&#39;s Soda Bread" tags="" position="1392,41" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 ***
 
@@ -1016,7 +994,7 @@ Bake for 30 minutes or until the loaf is golden brown and sounds hollow when tap
 ***
 
 [[Read the rest of the recipes.-&gt;Technical&#39;s Station: Recipes]]
-</tw-passagedata><tw-passagedata pid="99" name="Recipe: Youtuber&#39;s Shortbread" tags="" position="1533,35" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="98" name="Recipe: Youtuber&#39;s Shortbread" tags="" position="1533,35" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 ***
 
@@ -1041,7 +1019,7 @@ Cut into squares while warm.
 ***
 
 [[Read the rest of the recipes.-&gt;Technical&#39;s Station: Recipes]]
-</tw-passagedata><tw-passagedata pid="100" name="Recipe: Comedian&#39;s Brownies" tags="" position="1690,33" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="99" name="Recipe: Comedian&#39;s Brownies" tags="" position="1690,33" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 ***
 
@@ -1066,23 +1044,23 @@ Bake at 350°F degrees for about 20 minutes.
 ***
 
 [[Read the rest of the recipes.-&gt;Technical&#39;s Station: Recipes]]
-</tw-passagedata><tw-passagedata pid="101" name="Technical&#39;s Station: Keyfob" tags="" position="1215,230" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="100" name="Technical&#39;s Station: Keyfob" tags="" position="1215,230" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The object is about an inch and a half long and is made of a dull gray plastic. On closer inspection, it&#39;s not a keyfob at all -- rather, it seems to be a remote control of some kind. It reminds you of a slimmed-down version of the keyless entry remotes that come with most cars.
 
 There is a single round rubber button on one side of the remote. The word ~~Larabee~~ is stamped into the other side in small block letters.
 
-[[Examine the rest of {player.technical}&#39;s station.-&gt;Technical&#39;s Station]]</tw-passagedata><tw-passagedata pid="102" name="Paul&#39;s Dressing Room: Teacup" tags="" position="2636,1250" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the rest of {player.technical}&#39;s station.-&gt;Technical&#39;s Station]]</tw-passagedata><tw-passagedata pid="101" name="Paul&#39;s Dressing Room: Teacup" tags="" position="2636,1250" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The teacup is empty, but the brown residue at the bottom of the cup confirms that it held tea at some point in the past.
 
-[[Keep examining the desk.-&gt;Paul&#39;s Dressing Room: Desk]]</tw-passagedata><tw-passagedata pid="103" name="Judges&#39; Tent: Trash" tags="" position="918,327" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep examining the desk.-&gt;Paul&#39;s Dressing Room: Desk]]</tw-passagedata><tw-passagedata pid="102" name="Judges&#39; Tent: Trash" tags="" position="918,327" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 Looks like someone had a real party last night. Four large pizza boxes are piled high on the table. You open up each of the boxes and inspect their contents in turn: pepperoni; Hawaiian; margherita; and some kind of cheeseless veggie option. Predictably, they&#39;re all stone cold by now. All of the pizzas are missing slices, but none of them have been finished, either.
 
-There&#39;s also an impressive array of empty alcohol containers. You count twelve beer cans and two empty bottles of wine strewn across the tent. The beers are all empty, but the wine bottles are still half-full. Or half-empty. It feels like a half-empty kind of day. 
+There&#39;s also an impressive array of open alcohol containers. You count six beer cans and two wine bottles strewn across the tent, along with a pair of wine glasses. The beers and glasses are empty, but the wine bottles are still half-full. Or half-empty. It feels like a half-empty kind of day. 
 
-[[Keep investigating the judge&#39;s tent.-&gt;Judges&#39; Tent]]</tw-passagedata><tw-passagedata pid="104" name="Comedian&#39;s Dressing Room: Book Shelf" tags="" position="2013,1125" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the judge&#39;s tent.-&gt;Judges&#39; Tent]]</tw-passagedata><tw-passagedata pid="103" name="Comedian&#39;s Dressing Room: Book Shelf" tags="" position="2013,1125" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The book shelf is massive, with five rows of shelves spanning almost the entire width of the bedroom. You carefully scan the volumes on the shelves. While most of the books are clearly part of the decorations that come with the room -- dry classic novels, out-of-date encyclopedia volumes, and coffee table books from forgotten local photographers -- you spot a few that {player.comedian} seems to have brought for their personal reading.
 
@@ -1090,7 +1068,7 @@ The book shelf is massive, with five rows of shelves spanning almost the entire 
 &gt; [[The Body in the Library by Agatha Christie-&gt;Book: Body in the Library]]
 &gt; [[Inherent Vice by Thomas Pynchon-&gt;Book: Inherent Vice]] 
 
-[[Keep investigating the rest of {player.comedian}&#39;s dressing room.-&gt;Comedian&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="105" name="Comedian&#39;s Dressing Room: Safe" tags="" position="2163,1125" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of {player.comedian}&#39;s dressing room.-&gt;Comedian&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="104" name="Comedian&#39;s Dressing Room: Safe" tags="" position="2163,1125" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You dig through the cupboards that run along the bookshelf. Most of them contain the usual suspects you&#39;d find in any rented bedroom: extra blankets; sealed boxes of Kleenex; a pile of old board games.
 
@@ -1104,13 +1082,13 @@ Enter a passcode: {text input for: &#39;inviteCode&#39;, required:false}
 
 [[Try the handle.-&gt;Comedian&#39;s Dressing Room: Safe Interior]] 
 
-[[Keep investigating the rest of {player.comedian}&#39;s dressing room.-&gt;Comedian&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="106" name="Comedian&#39;s Dressing Room: Reading Table" tags="" position="2448,1122" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of {player.comedian}&#39;s dressing room.-&gt;Comedian&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="105" name="Comedian&#39;s Dressing Room: Reading Table" tags="" position="2448,1122" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 Playing cards are scattered across the small reading table, and a few have fallen off the table and down onto the carpet below. A few extra [[packs of cards in various colors-&gt;Comedian&#39;s Dressing Room: Packs]] are stacked along the side of the table, although it appears only one pack has been opened.
 
 A [[flip-top cell phone-&gt;Comedian&#39;s Dressing Room: Phone]] sits next to the card packs.
 
-[[Keep investigating the rest of {player.comedian}&#39;s dressing room.-&gt;Comedian&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="107" name="Comedian&#39;s Dressing Room: Bed" tags="" position="2307,1113" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the rest of {player.comedian}&#39;s dressing room.-&gt;Comedian&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="106" name="Comedian&#39;s Dressing Room: Bed" tags="" position="2307,1113" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The bed is unmade and the covers are in violent disarray. The pillows are disheveled and seem to have been thrown chaotically around the bed.
 
@@ -1118,30 +1096,30 @@ You pull the bedding off the bed. There is nothing out of the ordinary underneat
 
 You hear a clinking sound as you replace the sheets back on the bed. You reach your hand down the side of the bed and pull out an empty whiskey bottle.
 
-[[Investigate the rest of {player.comedian}&#39;s dressing room.-&gt;Comedian&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="108" name="Comedian&#39;s Dressing Room: Phone" tags="" position="2510,1272" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigate the rest of {player.comedian}&#39;s dressing room.-&gt;Comedian&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="107" name="Comedian&#39;s Dressing Room: Phone" tags="" position="2510,1272" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You flip open the phone and check the message history. There are two text message threads from the last few days.
 
 &gt; [[[Paul]-&gt;Comedian&#39;s Dressing Room: Paul]]
 &gt; [[[{npc.comedian_sponsor}]-&gt;Comedian&#39;s Dressing Room: Sponsor]]
 
-[[Put down the cell phone.-&gt;Comedian&#39;s Dressing Room: Reading Table]]</tw-passagedata><tw-passagedata pid="109" name="Book: Yiddish Policemen&#39;s Union" tags="" position="1913,1288" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Put down the cell phone.-&gt;Comedian&#39;s Dressing Room: Reading Table]]</tw-passagedata><tw-passagedata pid="108" name="Book: Yiddish Policemen&#39;s Union" tags="" position="1913,1288" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You&#39;ve been meaning to read this one. You know that it&#39;s a crime story focused on a murder in the Jewish community of an alternate universe version of Sitka, Alaska. It sounds like the kind of thing you&#39;d be interested in, but what with one thing and another you haven&#39;t got around to reading it yet.
 
 You crack open the book to flick through its pages and notice that the dedication page has been torn out.
 
-[[Examine the other books.-&gt;Comedian&#39;s Dressing Room: Book Shelf]]</tw-passagedata><tw-passagedata pid="110" name="Book: Body in the Library" tags="" position="2041,1292" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the other books.-&gt;Comedian&#39;s Dressing Room: Book Shelf]]</tw-passagedata><tw-passagedata pid="109" name="Book: Body in the Library" tags="" position="2041,1292" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You&#39;re pretty sure you&#39;ve read this one before. It&#39;s classic Christie -- someone&#39;s found dead in a fancy English mansion, and some well-meaning octogenarian takes it upon herself to get to the bottom of it. Did the butler do it? Or was it the maid...? 
 
-[[Examine the other books.-&gt;Comedian&#39;s Dressing Room: Book Shelf]]</tw-passagedata><tw-passagedata pid="111" name="Book: Inherent Vice" tags="" position="1965,1412" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the other books.-&gt;Comedian&#39;s Dressing Room: Book Shelf]]</tw-passagedata><tw-passagedata pid="110" name="Book: Inherent Vice" tags="" position="1965,1412" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You open the book expecting to find a neo-noir about a drugged-out hippie private eye investigating a disappearance in &#39;70s LA, but instead you discover that the center has been cut out of half the pages, leaving an open rectangular space in the middle of the book.
 
 Nestled into that gap is a bunched-up Ziploc bag filled with a mysterious white power.
 
-[[Examine the other books.-&gt;Comedian&#39;s Dressing Room: Book Shelf]]</tw-passagedata><tw-passagedata pid="112" name="Comedian&#39;s Dressing Room: Safe Interior" tags="" position="2235,1264" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the other books.-&gt;Comedian&#39;s Dressing Room: Book Shelf]]</tw-passagedata><tw-passagedata pid="111" name="Comedian&#39;s Dressing Room: Safe Interior" tags="" position="2235,1264" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The latch clicks and the safe swings open. Apparently it wasn&#39;t locked after all!
 
@@ -1149,7 +1127,7 @@ Inside the safe is a single silver handgun. It looks like it&#39;s loaded. You p
 
 You replace the gun in the safe and make a mental note to warn anyone else about the live gun before they investigate this room. Safety first!
 
-[[Continue investigating {player.comedian}&#39;s dressing room.-&gt;Comedian&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="113" name="Comedian&#39;s Dressing Room: Sponsor" tags="" position="2469,1455" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Continue investigating {player.comedian}&#39;s dressing room.-&gt;Comedian&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="112" name="Comedian&#39;s Dressing Room: Sponsor" tags="" position="2469,1455" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 ***
 
@@ -1195,7 +1173,7 @@ dont hat e me
 
 ***
 
-[[Read the other texts.-&gt;Comedian&#39;s Dressing Room: Phone]]</tw-passagedata><tw-passagedata pid="114" name="Comedian&#39;s Dressing Room: Paul" tags="" position="2597,1454" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Read the other texts.-&gt;Comedian&#39;s Dressing Room: Phone]]</tw-passagedata><tw-passagedata pid="113" name="Comedian&#39;s Dressing Room: Paul" tags="" position="2597,1454" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 ***
 
@@ -1239,7 +1217,7 @@ i&#39;m coming over
 
 ***
 
-[[Read the other texts.-&gt;Comedian&#39;s Dressing Room: Phone]]</tw-passagedata><tw-passagedata pid="115" name="Paul&#39;s Dressing Room: Notes" tags="" position="2753,1277" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Read the other texts.-&gt;Comedian&#39;s Dressing Room: Phone]]</tw-passagedata><tw-passagedata pid="114" name="Paul&#39;s Dressing Room: Notes" tags="" position="2753,1277" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The notes have soaked up quite a lot of blood, causing their ink to run and the pages to stick together. You have to take extra care to not accidentally rip any of them as you carefully peel each page off of its neighbor.
 
@@ -1247,11 +1225,11 @@ Most of the pages appear to be Paul&#39;s personal notes about each of the compe
 
 At the bottom of the stack is a [[note that doesn&#39;t match the others-&gt;Paul&#39;s Dressing Room: IOU]].
 
-[[Examine the rest of the desk.-&gt;Paul&#39;s Dressing Room: Desk]]</tw-passagedata><tw-passagedata pid="116" name="Paul&#39;s Dressing Room: Photo" tags="" position="2983,1423" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the rest of the desk.-&gt;Paul&#39;s Dressing Room: Desk]]</tw-passagedata><tw-passagedata pid="115" name="Paul&#39;s Dressing Room: Photo" tags="" position="2983,1423" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You rub at the blood that has congealed over the picture frame. While this mostly just serves to smear the blood over a wider area, you do thin it out enough to get a clear (if red-tinted) look at the picture inside. It is a picture of Paul, standing by himself next to a blue and white racing car. He&#39;s dressed in a full-body racing suit and he&#39;s has a visored helmet tucked under his arm.
 
-[[Keep examining the desk.-&gt;Paul&#39;s Dressing Room: Desk]]</tw-passagedata><tw-passagedata pid="117" name="Youtuber&#39;s Dressing Room: Bed" tags="" position="2690,543" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep examining the desk.-&gt;Paul&#39;s Dressing Room: Desk]]</tw-passagedata><tw-passagedata pid="116" name="Youtuber&#39;s Dressing Room: Bed" tags="" position="2690,543" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The bed has been neatly made and does not appear to have been slept in. The colorful, birthday cake-themed sheets are smooth and unruffled, and even the [[pile of multicolored stuffed animals-&gt;Youtuber&#39;s Dressing Room: Stuffed Animals]]  at the head of the bed has been arranged into a tidy stack between both pillows.
 
@@ -1261,7 +1239,7 @@ A [[modest nightstand-&gt;Youtuber&#39;s Dressing Room: Nightstand]] is squeezed
 
 You check under the covers and even dig through the pile of stuffed toys, but apart from a plush cupcake with a deeply shifty expression, you don&#39;t find anything suspicious.
 
-[[Investigate the rest of {player.youtuber}&#39;s room.-&gt;Youtuber&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="118" name="Youtuber&#39;s Dressing Room: Posters" tags="" position="2872,631" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigate the rest of {player.youtuber}&#39;s room.-&gt;Youtuber&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="117" name="Youtuber&#39;s Dressing Room: Posters" tags="" position="2872,631" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The wall is covered floor-to-ceiling in posters, photos, and framed magazine covers. The posters and magazines seem to cover the highlights of {player.youtuber}&#39;s career, with headlines such as:
 
@@ -1286,7 +1264,7 @@ The photographs on the wall have all been blown-up to jumbo size and framed. All
 
 In each shot, {player.youtuber} looks delighted to be there, beaming ear to ear and experimenting with all kinds of posing, including several shots where they are hugging Paul or giving him bunny ears. Through all this, Paul maintains his trademark cool, smiling wryly at the camera and rarely letting his hands leave the pockets of his neatly pressed jeans.
 
-[[Investigate the rest of {player.youtuber}&#39;s room.-&gt;Youtuber&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="119" name="Youtuber&#39;s Dressing Room: Camera" tags="" position="2854,412" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigate the rest of {player.youtuber}&#39;s room.-&gt;Youtuber&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="118" name="Youtuber&#39;s Dressing Room: Camera" tags="" position="2854,412" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You pick up the camera and turn it over in your hands, examining it. It&#39;s a professional-quality DSLR, and it must weigh at least a couple pounds before you even factor in the portrait lens currently attached to it.
 
@@ -1298,13 +1276,13 @@ There is an  [[SD card-&gt;Youtuber&#39;s Dressing Room: SD Card]] inserted into
 You have already taken the SD card from this camera, and its slot lies empty.
 [continue]
 
-[[Keep examining the bed.-&gt;Youtuber&#39;s Dressing Room: Bed]]</tw-passagedata><tw-passagedata pid="120" name="Youtuber&#39;s Dressing Room: SD Card" tags="" position="3019,515" size="100,100">keys.sd_card:true
+[[Keep examining the bed.-&gt;Youtuber&#39;s Dressing Room: Bed]]</tw-passagedata><tw-passagedata pid="119" name="Youtuber&#39;s Dressing Room: SD Card" tags="" position="3019,515" size="100,100">keys.sd_card:true
 
 --
 
 _You pop the SD card out of the camera and put it in your pocket for safe-keeping._
 
-[[Keep examining the bed.-&gt;Youtuber&#39;s Dressing Room: Bed]]</tw-passagedata><tw-passagedata pid="121" name="Youtuber&#39;s Dressing Room: Laptop" tags="" position="3173,800" size="100,100">password:&quot;&quot;
+[[Keep examining the bed.-&gt;Youtuber&#39;s Dressing Room: Bed]]</tw-passagedata><tw-passagedata pid="120" name="Youtuber&#39;s Dressing Room: Laptop" tags="" position="3173,800" size="100,100">password:&quot;&quot;
 --
 
 {embed passage:&#39;Take Turn&#39;}
@@ -1330,7 +1308,7 @@ A web browser is open on the laptop&#39;s screen. There are several tabs already
 
 [[Investigate the rest of {player.youtuber}&#39;s room.-&gt;Youtuber&#39;s Dressing Room]]
 
-</tw-passagedata><tw-passagedata pid="122" name="Validate Laptop Password" tags="" position="3043,653" size="100,100">keys.laptop:password === &quot;411&quot;
+</tw-passagedata><tw-passagedata pid="121" name="Validate Laptop Password" tags="" position="3043,653" size="100,100">keys.laptop:password === &quot;411&quot;
 
 --
 
@@ -1344,7 +1322,7 @@ The password field shudders and flashes red. It seems like that wasn&#39;t the r
 
 [continue]
 
-[[Continue-&gt;Youtuber&#39;s Dressing Room: Laptop]]</tw-passagedata><tw-passagedata pid="123" name="Lock Screen" tags="" position="3178,656" size="100,100">[align center]
+[[Continue-&gt;Youtuber&#39;s Dressing Room: Laptop]]</tw-passagedata><tw-passagedata pid="122" name="Lock Screen" tags="" position="3178,656" size="100,100">[align center]
 **Enter PIN** \
 **Hint: Shortbread**
 
@@ -1352,7 +1330,7 @@ The password field shudders and flashes red. It seems like that wasn&#39;t the r
 
 [[Submit-&gt;Validate Laptop Password]]
 
-[continue]</tw-passagedata><tw-passagedata pid="124" name="Youtuber&#39;s Dressing Room: Analytics" tags="" position="3376,979" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[continue]</tw-passagedata><tw-passagedata pid="123" name="Youtuber&#39;s Dressing Room: Analytics" tags="" position="3376,979" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 This tab is displaying the performance statistics for {player.youtuber}&#39;s popular Youtube channel {title.youtuber_youtube}. {player.youtuber} has uploaded more than a thousand videos over the last few years, mostly focused on baking tips, kitchen hacks, and showing off novelty bakes based on scenes and characters from popular culture.
 
@@ -1362,7 +1340,7 @@ This lack of output is really starting to show in their analytics, too. Where th
 
 [[Check out the other open tabs.-&gt;Youtuber&#39;s Dressing Room: Laptop]]
 
-</tw-passagedata><tw-passagedata pid="125" name="Youtuber&#39;s Dressing Room: Agent" tags="" position="3376,845" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="124" name="Youtuber&#39;s Dressing Room: Agent" tags="" position="3376,845" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 This tab is contains a message thread between {player.youtuber} and one {npc.youtuber_agent}, whose profile lists them as an agent working for Allied Talent Agency.
 
@@ -1418,7 +1396,7 @@ And find a camera I guess
 
 [[Check out the other open tabs.-&gt;Youtuber&#39;s Dressing Room: Laptop]]
 
-</tw-passagedata><tw-passagedata pid="126" name="Youtuber&#39;s Dressing Room: Blog" tags="" position="3376,713" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="125" name="Youtuber&#39;s Dressing Room: Blog" tags="" position="3376,713" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 This tab contains a blog on a popular microblogging site. It appears to be logged in as the blog&#39;s author. The blog is marked as private, but it still has several hundred followers who have been granted access.
 
@@ -1492,7 +1470,7 @@ I CANT BELIECE THIS SHIT. PH IS CANCELED. HES DONE. FUCK HIM. FUCK FUCKFUCIJFIUJ
 
 [[Check out the other open tabs.-&gt;Youtuber&#39;s Dressing Room: Laptop]]
 
-</tw-passagedata><tw-passagedata pid="127" name="Youtuber&#39;s Dressing Room: Stuffed Animals" tags="" position="2705,378" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="126" name="Youtuber&#39;s Dressing Room: Stuffed Animals" tags="" position="2705,378" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You&#39;ve been to zoos that had fewer animals than this. Although none of them were this colorful. Or this spherical.
 
@@ -1503,14 +1481,14 @@ At the bottom of the pile, you discover a stuffed pink kangaroo with a zip-up po
 You put the lighter back where you found it and place the kangaroo onto the bed with the rest of its multicolored fellows.
 
 [[Keep examining the rest of the bed.-&gt;Youtuber&#39;s Dressing Room: Bed]]
-</tw-passagedata><tw-passagedata pid="128" name="Comedian&#39;s Dressing Room: Packs" tags="" position="2361,1270" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="127" name="Comedian&#39;s Dressing Room: Packs" tags="" position="2361,1270" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You leaf through the different packs of cards. You&#39;ve got all your classics here -- Bicycle, KEM, Modiano, and the obligatory pack of erotic novelty cards. Each of the packs have been opened, although some appear to have been played with more than others.
 
 You pause as you reach the final pack, as you realize that it&#39;s not a pack of cards at all. Instead, it&#39;s a pack of clove cigarettes. You flip the pack open and look inside. It&#39;s half-empty, but you can see that each of the cigarettes are wrapped in a distinctive black paper and marked with silver foil around the filter.
 
 [[Keep examining the table.-&gt;Comedian&#39;s Dressing Room: Reading Table]]
-</tw-passagedata><tw-passagedata pid="129" name="The Editing Suite" tags="" position="2206,376" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="128" name="The Editing Suite" tags="" position="2206,376" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You lift the curtain aside and step past it into editing bay.
 
@@ -1520,7 +1498,7 @@ The surface is this desk is covered in all kinds of electronics tools and gizmos
 
 The twisting mass of cables that powers all this equipment snakes down the back of the desk, terminating in a beefy-looking [[workstation PC-&gt;The Editing Suite: PC]] sitting on the floor below.
 
-[[Go back out through curtain.-&gt;The Sitting Room]]</tw-passagedata><tw-passagedata pid="130" name="The Sitting Room: Craft Services" tags="" position="2637,163" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Go back out through curtain.-&gt;The Sitting Room]]</tw-passagedata><tw-passagedata pid="129" name="The Sitting Room: Craft Services" tags="" position="2637,163" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The craft services tables are mostly bare, ready and expectant for the heaps of drinks, snacks, buffet dishes, and plastic utensils that would have been necessary to fuel today&#39;s finale shoot.
 
@@ -1531,19 +1509,19 @@ Another table hosts a variety of dry foods -- bread, cereal, apples, peanut butt
 There are large [[trash cans-&gt;Craft Services: Trash Cans]] placed at either end of the banquet tables. You imagine the proprietors of Thornewood Castle wouldn&#39;t look too kindly on anyone leaving trash lying around their nice castle. 
 
 [[Investigate the rest of the sitting room.-&gt;The Sitting Room]]
-</tw-passagedata><tw-passagedata pid="131" name="The Sitting Room: Sitting Area" tags="" position="2439,221" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="130" name="The Sitting Room: Sitting Area" tags="" position="2439,221" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The break area is the only part of the sitting room still furnished with its original furniture.  The [[arm chairs-&gt;The Sitting Room: Arm Chairs]] are plush and well-stuffed, and the coffee table is a dark, burnished mahogany.
 
 A number of [[loose sheets of paper-&gt;The Sitting Room: Script]] are spread across the table. 
 
-[[Investigate the rest of the sitting room.-&gt;The Sitting Room]]</tw-passagedata><tw-passagedata pid="132" name="Craft Services: Tea Station" tags="" position="2805,255" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Investigate the rest of the sitting room.-&gt;The Sitting Room]]</tw-passagedata><tw-passagedata pid="131" name="Craft Services: Tea Station" tags="" position="2805,255" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 Several tall, stainless steel beverage dispensers are arranged on the table next to a few boxes of individually-wrapped tea bags. The dispensers labeled ~~Coffee~~ and ~~Decaf~~ are both empty, but the one labeled ~~Hot water~~ is half-full and plugged into the wall.
 
 A dial on the back declares that the dispenser is set to a balmy 190°F -- slightly too hot for green tea, slightly too cold for black, and guaranteed to give you an acceptably mediocre experience regardless of your drink of choice.
 
-[[Keep examining craft services.-&gt;The Sitting Room: Craft Services]]</tw-passagedata><tw-passagedata pid="133" name="Craft Services: Fridges" tags="" position="2803,139" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep examining craft services.-&gt;The Sitting Room: Craft Services]]</tw-passagedata><tw-passagedata pid="132" name="Craft Services: Fridges" tags="" position="2803,139" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You open up each of the fridges and look inside.
 
@@ -1552,14 +1530,14 @@ They&#39;re mostly empty, waiting for the delivery people who would have restock
 The last fridge looks like it had been prepared in advance for some post-recording celebrations. There are several cardboard 24-packs of beer and several bottles of wine from local wineries. The 24-packs are almost empty, with just a couple of cans remaining between them.
 
 [[Keep examining craft services.-&gt;The Sitting Room: Craft Services]]
-</tw-passagedata><tw-passagedata pid="134" name="Craft Services: Trash Cans" tags="" position="2806,14" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="133" name="Craft Services: Trash Cans" tags="" position="2806,14" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You lift the lids off of the trash cans and peer within. It looks like they were emptied fairly recently, as the trash can next to the food supplies is almost empty; it contains an apple core, the wrapper from a granola bar, a couple of pizza crusts, and a few greasy napkins.
 
 The trash can closer to the tea station is similarly barren. Its contents are limited to few empty paper cups and discarded tea bags, sitting in an inch-deep puddle of murky, reddish-brown trash water. Someone must have thrown a full cup of tea into here without thinking about the poor bastard who&#39;d have to clean up after them. Rude. 
 
 [[Keep examining craft services.-&gt;The Sitting Room: Craft Services]]
-</tw-passagedata><tw-passagedata pid="135" name="The Sitting Room: Arm Chairs" tags="" position="2543,26" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="134" name="The Sitting Room: Arm Chairs" tags="" position="2543,26" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The armchairs look extremely comfortable. You&#39;re briefly tempted to sit down and rest your feet, but you have a job to do.
 
@@ -1568,7 +1546,7 @@ You run your hands down the side of the each of the chairs. You mostly pull up d
 You carefully work the object out from under the chair&#39;s pillow and hold it up under the light. It&#39;s a single cigarette, slightly crushed but unsmoked, wrapped in black paper and marked with a band of silver foil around the filter.
 
 [[Keep investigating the break area.-&gt;The Sitting Room: Sitting Area]]
-</tw-passagedata><tw-passagedata pid="136" name="The Sitting Room: Script" tags="" position="2411,33" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="135" name="The Sitting Room: Script" tags="" position="2411,33" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The papers appear to be printed pages of a script.  The sheets are out of order, but as best you can gather it&#39;s some kind of gritty, neo-noir mystery story. Most of the lines of dialog contain at least one swear word, and whole pages are devoted to detailed, blow-by-blow descriptions of fight scenes and violent gun battles.
 
@@ -1584,7 +1562,7 @@ After some searching you manage to find the title page:
 
 [continue]
 
-[[Keep investigating the break area.-&gt;The Sitting Room: Sitting Area]]</tw-passagedata><tw-passagedata pid="137" name="The Editing Suite: SD Card Reader" tags="" position="2278,206" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep investigating the break area.-&gt;The Sitting Room: Sitting Area]]</tw-passagedata><tw-passagedata pid="136" name="The Editing Suite: SD Card Reader" tags="" position="2278,206" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 [if !keys.sd_card_reader]
 You sort through the mess of gizmos that are strewn across the desk.
@@ -1607,7 +1585,7 @@ You can [[insert the SD card you found into the card reader-&gt;The Editing Suit
 
 
 [[Explore the rest of the editing suite.-&gt;The Editing Suite]]
-</tw-passagedata><tw-passagedata pid="138" name="The Editing Suite: PC" tags="" position="1986,294" size="100,100">{embed passage:&#39;Take Turn&#39;}
+</tw-passagedata><tw-passagedata pid="137" name="The Editing Suite: PC" tags="" position="1986,294" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 You tap a key on the keyboard, and the three monitors all spring to life without prompting for a password.
 
@@ -1621,7 +1599,7 @@ Each monitor is displaying a different application:
 _Now that you&#39;ve inserted the SD card into the reader, a new dialog is blinking in the corner of the right-most screen. It reads: [[&#96;Open external media in Explorer?&#96;-&gt;The Editing Suite: SD Card Files]]_
 [continue]
 
-[[Investigate the rest of the editing bay.-&gt;The Editing Suite]]</tw-passagedata><tw-passagedata pid="139" name="The Editing Suite: Insert Card" tags="" position="2144,206" size="100,100">keys.sd_card_reader:true
+[[Investigate the rest of the editing bay.-&gt;The Editing Suite]]</tw-passagedata><tw-passagedata pid="138" name="The Editing Suite: Insert Card" tags="" position="2144,206" size="100,100">keys.sd_card_reader:true
 
 --
 
@@ -1629,7 +1607,7 @@ You press the SD card you found in {player.youtuber}&#39;s room into the SD card
 
 You can now view the files on the SD card using the editing PC.
 
-[[Keep exploring the editing suite.-&gt;The Editing Suite]]</tw-passagedata><tw-passagedata pid="140" name="Editing PC: Video Editor" tags="" position="1790,384" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Keep exploring the editing suite.-&gt;The Editing Suite]]</tw-passagedata><tw-passagedata pid="139" name="Editing PC: Video Editor" tags="" position="1790,384" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The grinning faces of {player.comedian} and {player.youtuber} are frozen on the preview window of the video editor. It looks like someone has been assembling a rough cut of the opening sketch that would have run before the finale.
 
@@ -1637,7 +1615,7 @@ For some reason, they&#39;re both wearing a glittery, full-body costumes that ma
 
 All of the files have timestamps that confirm that they were filmed yesterday between 12:15 PM and 12:50 PM.
 
-[[Examine the other applications.-&gt;The Editing Suite: PC]]</tw-passagedata><tw-passagedata pid="141" name="Editing PC: Messages" tags="" position="1974,142" size="100,100">
+[[Examine the other applications.-&gt;The Editing Suite: PC]]</tw-passagedata><tw-passagedata pid="140" name="Editing PC: Messages" tags="" position="1974,142" size="100,100">
 {embed passage:&#39;Take Turn&#39;}
 
 There are two recent message threads opening on the messaging application.
@@ -1645,7 +1623,7 @@ There are two recent message threads opening on the messaging application.
 &gt; [[[Party4llNight]-&gt;Editing PC: Party4llNight]]
 &gt; [[[Paul.Holyroot]-&gt;Editing PC: Paul.Holyroot]]
 
-[[Examine the other applications.-&gt;The Editing Suite: PC]]</tw-passagedata><tw-passagedata pid="142" name="Editing PC: Email" tags="" position="1799,251" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the other applications.-&gt;The Editing Suite: PC]]</tw-passagedata><tw-passagedata pid="141" name="Editing PC: Email" tags="" position="1799,251" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 ***
 
@@ -1671,7 +1649,7 @@ Best of luck,
 ***
 
 
-[[Examine the other applications.-&gt;The Editing Suite: PC]]</tw-passagedata><tw-passagedata pid="143" name="The Editing Suite: SD Card Files" tags="" position="2056,423" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the other applications.-&gt;The Editing Suite: PC]]</tw-passagedata><tw-passagedata pid="142" name="The Editing Suite: SD Card Files" tags="" position="2056,423" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The SD card contains five photos. They&#39;re all various shots of {player.creative} standing out in the garden. They are wearing an apron and a baker&#39;s hat in matching, light-green floral print, and they are carrying a large wooden rolling pin.
 
@@ -1679,7 +1657,7 @@ The sun-dappled garden makes for quite a serene scene, but the effect is ruined 
 
 The camera that took these photos must have a misconfigured internal clock, as the photos all have timestamps from January 2, 1971.
 
-[[Examine the other applications.-&gt;The Editing Suite: PC]]</tw-passagedata><tw-passagedata pid="144" name="Editing PC: Party4llNight" tags="" position="1855,15" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the other applications.-&gt;The Editing Suite: PC]]</tw-passagedata><tw-passagedata pid="143" name="Editing PC: Party4llNight" tags="" position="1855,15" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 ***
 
@@ -1741,7 +1719,7 @@ where the fuck are you
 
 ***
 
-[[Read the other messages-&gt;Editing PC: Messages]]</tw-passagedata><tw-passagedata pid="145" name="Editing PC: Paul.Holyroot" tags="" position="2056,16" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Read the other messages-&gt;Editing PC: Messages]]</tw-passagedata><tw-passagedata pid="144" name="Editing PC: Paul.Holyroot" tags="" position="2056,16" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 ***
 
@@ -1821,7 +1799,7 @@ be right there
 
 ***
 
-[[Read the other messages-&gt;Editing PC: Messages]]</tw-passagedata><tw-passagedata pid="146" name="Paul&#39;s Dressing Room: IOU" tags="" position="2750,1446" size="100,100">This final sheet is smaller than the other notes, and one side of the page is torn. A short message is printed on it in small, serifed type:
+[[Read the other messages-&gt;Editing PC: Messages]]</tw-passagedata><tw-passagedata pid="145" name="Paul&#39;s Dressing Room: IOU" tags="" position="2750,1446" size="100,100">This final sheet is smaller than the other notes, and one side of the page is torn. A short message is printed on it in small, serifed type:
 
 ***
 
@@ -1847,32 +1825,14 @@ You turn the page over to find a handwritten note on the back. The handwriting i
 There is a signature underneath, but it is too slurred and blood-run to make out.
 
 
-[[Put down the note.-&gt;Paul&#39;s Dressing Room: Notes]]</tw-passagedata><tw-passagedata pid="147" name="Pauls&#39; Dressing Room: Checkbook" tags="" position="2869,1399" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Put down the note.-&gt;Paul&#39;s Dressing Room: Notes]]</tw-passagedata><tw-passagedata pid="146" name="Pauls&#39; Dressing Room: Checkbook" tags="" position="2869,1399" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The checkbook is bound in black leather cover.  While a few stray streaks of blood have splattered across the cover, its it far enough from Paul&#39;s body to have avoided the wide pool of blood that has soaked most of the desk.
 
 You flick through the checkbook&#39;s contents. It is half-empty and contains, as you might expect, a lot of blank checks. Paul&#39;s name and home address are printed in the corner of each check.
 
 
-[[Examine the rest of the desk.-&gt;Paul&#39;s Dressing Room: Desk]]</tw-passagedata><tw-passagedata pid="148" name="Paul&#39;s Dressing Room: Rug" tags="" position="3167,1167" size="100,100">{embed passage:&#39;Take Turn&#39;}
-
-You get down on your knees to examine the rug. Its thick gray shag is adorned with a geometric design of intersecting blue lines running across it. The stylish effect is broken up by the large amount of blood that has dripped down from the desk above and soaked into it, creating a deep, dark stain several feet wide in the center of the rug.
-
-You run your fingers across the drier parts of the rug, and you can&#39;t help but luxuriate in how soft its pile feels under your fingers. This must have felt incredible to walk on without shoes.
-
-[unless keys.old_key]
-_Your fingers brush up against something cold and metal hidden beneath the shag -- [[an old-fashioned key-&gt;Paul&#39;s Dressing Room: Key]]._
-[continue]
-
-[[Investigate the rest of Paul&#39;s room.-&gt;Paul&#39;s Dressing Room]]</tw-passagedata><tw-passagedata pid="149" name="Paul&#39;s Dressing Room: Key" tags="" position="3175,1310" size="100,100">keys.old_key:true
-
---
-
-You pull the key out of the rug and examine it. It&#39;s an old-fashioned bronze key with a slender, rounded shaft and hand-cut square teeth.
-
-_You slip the key into your pocket. Perhaps you can find what it unlocks elsewhere in the manor._
-
-[[Keep examining the rug.-&gt;Paul&#39;s Dressing Room: Rug]]</tw-passagedata><tw-passagedata pid="150" name="Youtuber&#39;s Dressing Room: Nightstand" tags="" position="2535,492" size="100,100">{embed passage:&#39;Take Turn&#39;}
+[[Examine the rest of the desk.-&gt;Paul&#39;s Dressing Room: Desk]]</tw-passagedata><tw-passagedata pid="147" name="Youtuber&#39;s Dressing Room: Nightstand" tags="" position="2535,492" size="100,100">{embed passage:&#39;Take Turn&#39;}
 
 The nightstand&#39;s narrow surface is almost completely taken up by a radio alarm clock and a USB phone charger.
 
@@ -1880,7 +1840,7 @@ You slide open the drawer built into the front of the nightstand and peer inside
 
 You give the bottle a shake, but it appears to be empty.
 
-[[Keep examining the bed.-&gt;Youtuber&#39;s Dressing Room: Bed]]</tw-passagedata><tw-passagedata pid="151" name="Welcome" tags="" position="388,1041" size="100,100">turns.max:16
+[[Keep examining the bed.-&gt;Youtuber&#39;s Dressing Room: Bed]]</tw-passagedata><tw-passagedata pid="148" name="Welcome" tags="" position="388,1041" size="100,100">turns.max:16
 turns.current:0
 freeplay:false
 
@@ -1912,19 +1872,19 @@ Now day is breaking and one thing has been made clear -- no one is leaving here 
 ***
 
 To get started, please [[enter your invitation code-&gt;Invite Code]].
-</tw-passagedata><tw-passagedata pid="152" name="Verify Reset" tags="" position="235,1039.6666666666667" size="100,100">Are you sure you want to reset the game? This will discard any progress you have made so far.
+</tw-passagedata><tw-passagedata pid="149" name="Verify Reset" tags="" position="235,1039" size="100,100">Are you sure you want to reset the game? This will discard any progress you have made so far.
 
 &gt; {restart link, label: &#39;Yes, I really want to reset my game.&#39;}
-&gt; [[On second thought, I&#39;m good.-&gt;Welcome]]</tw-passagedata><tw-passagedata pid="153" name="Verify Time Up" tags="" position="535,703" size="100,100">Did you run out of time during your investigation? Saying yes will end the current round of investigation and return you to the welcome page.
+&gt; [[On second thought, I&#39;m good.-&gt;Welcome]]</tw-passagedata><tw-passagedata pid="150" name="Verify Time Up" tags="" position="535,703" size="100,100">Did you run out of time during your investigation? Saying yes will end the current round of investigation and return you to the welcome page.
 
 &gt; [[Yes, I ran out of time.-&gt;Time Up]]
-&gt; {back link, label:&#39;I still have time. Take me back to the investigation!&#39;}</tw-passagedata><tw-passagedata pid="154" name="Show Turns" tags="" position="89,1013.6666666666666" size="100,100">_turnsRemaining:turns.max - turns.current
+&gt; {back link, label:&#39;I still have time. Take me back to the investigation!&#39;}</tw-passagedata><tw-passagedata pid="151" name="Show Turns" tags="" position="89,1013" size="100,100">_turnsRemaining:turns.max - turns.current
 _displayTurns:_turnsRemaining
 _displayTurns (_displayTurns &lt; 0): 0
 
 _trackTurns:turns.max &gt; 0
 config.header.right (_trackTurns): &quot;Turns remaining: {_displayTurns}&quot;
---</tw-passagedata></tw-storydata><script>!function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)n.d(r,o,function(t){return e[t]}.bind(null,o));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=28)}([function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.get=t.set=t.defaults=void 0;var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};t.init=function(){var e=(0,u.ifid)(),t=(0,u.name)();if(void 0===t)throw new Error("Cannot set up state: the story has no name");d="chapbook-state-"+t+"-"+e},t.reset=v,t.sameObject=function(e,t){for(var n=e.split("."),r=t.split("."),o=0;o<n.length&&o<r.length;o++)if(n[o]!==r[o])return!1;return!0},t.setDefault=function(e,t){var n=y(e);f('Defaulting "'+e+'" to '+JSON.stringify(t)),(0,i.default)(h,e,t),m(window,e),null==n&&a.default.emit("state-change",{name:e,value:t,previous:n})},t.setLookup=function(e,t){var n=y(e);f("Adding lookup variable "+e),(0,i.default)(g,e,t),function(e,t){if(!e[t]){for(var n=t.split("."),r=n[n.length-1],o=0;o<n.length-1;o++)e[n[o]]=e[n[o]]||{},e=e[n[o]];Object.defineProperty(e,r,{get:function(){return y(t)},set:function(){throw new Error("Chapbook lookup variables may only be read.")},configurable:!0})}}(window,e),null==n&&a.default.emit("state-change",{name:e,value:y(e),previous:n})},t.saveToObject=w,t.restoreFromObject=_,t.canSaveToStorage=x,t.saveToStorage=k,t.canRestoreFromStorage=function(){return x()&&null!==window.localStorage.getItem(d)},t.restoreFromStorage=function(){f("Restoring variables from local storage"),_(JSON.parse(window.localStorage.getItem(d))),f("Restore complete")},t.purgeFromStorage=function(e){e||f("Purging variables from local storage");_(JSON.parse(window.localStorage.getItem(d))),e||f("Purge complete")},t.varNames=function(e){function t(e,n){var o=arguments.length>2&&void 0!==arguments[2]?arguments[2]:[];return Object.keys(e).reduce(function(o,i){if("object"===r(e[i])&&e[i]&&!Array.isArray(e[i]))t(e[i],n?n+"."+i:i,o);else{var s=n?n+"."+i:i;-1===o.indexOf(s)&&o.push(s)}return o},o)}if(e)return t(h,null,t(p,null)).sort();return t(p).sort()};var o=c(n(34)),i=c(n(35)),s=c(n(37)),a=c(n(1)),l=c(n(4)),u=n(6);function c(e){return e&&e.__esModule?e:{default:e}}var f=(0,l.default)("state").log,d=void 0,p={},h={},g={};function m(e,t){if(!e[t]){Object.defineProperty(e,t,{get:function(){return y(t)},set:function(e){b(t,e)},configurable:!0});var n=t.split(".");n.length>1&&(n.pop(),m(e,n.join(".")))}}function v(){!function e(t,n){Object.keys(t).forEach(function(o){var i,l,u=""===n?o:n+"."+o;if("object"!==r(t[o])||Array.isArray(t[o])){var c=t[o];delete t[o],i=window,l=n,(0,s.default)(i,l),a.default.emit("state-change",{name:u,value:y(u),previous:c})}else e(t[o],u)})}(p,""),a.default.emit("state-reset"),y("config.state.autosave")&&k()}function b(e,t){var n=y(e);(0,i.default)(p,e,t),m(window,e),t!==n&&a.default.emit("state-change",{name:e,previous:n,value:t}),y("config.state.autosave")&&k()}function y(e){var t=(0,o.default)(g,e);if("function"==typeof t)return t(y,b);var n=(0,o.default)(p,e);return null==n?(0,o.default)(h,e):n}function w(){return Object.assign({},p)}function _(e){v(),Object.keys(e).forEach(function(t){return b(t,e[t])})}function x(){try{return window.localStorage.setItem("chapbook-test","a"),window.localStorage.removeItem("chapbook-test"),!0}catch(e){return!1}}function k(){f("Saving to local storage: "+JSON.stringify(w())),window.localStorage.setItem(d,JSON.stringify(w())),f("Save complete")}t.defaults={"config.state.autosave":!0},t.set=b,t.get=y},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r,o=n(30),i=(r=o)&&r.__esModule?r:{default:r};t.default=(0,i.default)()},function(e,t,n){"use strict";n.r(t),n.d(t,"h",function(){return a}),n.d(t,"createElement",function(){return a}),n.d(t,"cloneElement",function(){return f}),n.d(t,"createRef",function(){return q}),n.d(t,"Component",function(){return D}),n.d(t,"render",function(){return R}),n.d(t,"rerender",function(){return g}),n.d(t,"options",function(){return o});var r=function(){},o={},i=[],s=[];function a(e,t){var n,a,l,u,c=s;for(u=arguments.length;u-- >2;)i.push(arguments[u]);for(t&&null!=t.children&&(i.length||i.push(t.children),delete t.children);i.length;)if((a=i.pop())&&void 0!==a.pop)for(u=a.length;u--;)i.push(a[u]);else"boolean"==typeof a&&(a=null),(l="function"!=typeof e)&&(null==a?a="":"number"==typeof a?a=String(a):"string"!=typeof a&&(l=!1)),l&&n?c[c.length-1]+=a:c===s?c=[a]:c.push(a),n=l;var f=new r;return f.nodeName=e,f.children=c,f.attributes=null==t?void 0:t,f.key=null==t?void 0:t.key,void 0!==o.vnode&&o.vnode(f),f}function l(e,t){for(var n in t)e[n]=t[n];return e}function u(e,t){null!=e&&("function"==typeof e?e(t):e.current=t)}var c="function"==typeof Promise?Promise.resolve().then.bind(Promise.resolve()):setTimeout;function f(e,t){return a(e.nodeName,l(l({},e.attributes),t),arguments.length>2?[].slice.call(arguments,2):e.children)}var d=/acit|ex(?:s|g|n|p|$)|rph|ows|mnc|ntw|ine[ch]|zoo|^ord/i,p=[];function h(e){!e._dirty&&(e._dirty=!0)&&1==p.push(e)&&(o.debounceRendering||c)(g)}function g(){for(var e;e=p.pop();)e._dirty&&$(e)}function m(e,t){return e.normalizedNodeName===t||e.nodeName.toLowerCase()===t.toLowerCase()}function v(e){var t=l({},e.attributes);t.children=e.children;var n=e.nodeName.defaultProps;if(void 0!==n)for(var r in n)void 0===t[r]&&(t[r]=n[r]);return t}function b(e){var t=e.parentNode;t&&t.removeChild(e)}function y(e,t,n,r,o){if("className"===t&&(t="class"),"key"===t);else if("ref"===t)u(n,null),u(r,e);else if("class"!==t||o)if("style"===t){if(r&&"string"!=typeof r&&"string"!=typeof n||(e.style.cssText=r||""),r&&"object"==typeof r){if("string"!=typeof n)for(var i in n)i in r||(e.style[i]="");for(var i in r)e.style[i]="number"==typeof r[i]&&!1===d.test(i)?r[i]+"px":r[i]}}else if("dangerouslySetInnerHTML"===t)r&&(e.innerHTML=r.__html||"");else if("o"==t[0]&&"n"==t[1]){var s=t!==(t=t.replace(/Capture$/,""));t=t.toLowerCase().substring(2),r?n||e.addEventListener(t,w,s):e.removeEventListener(t,w,s),(e._listeners||(e._listeners={}))[t]=r}else if("list"!==t&&"type"!==t&&!o&&t in e){try{e[t]=null==r?"":r}catch(e){}null!=r&&!1!==r||"spellcheck"==t||e.removeAttribute(t)}else{var a=o&&t!==(t=t.replace(/^xlink:?/,""));null==r||!1===r?a?e.removeAttributeNS("http://www.w3.org/1999/xlink",t.toLowerCase()):e.removeAttribute(t):"function"!=typeof r&&(a?e.setAttributeNS("http://www.w3.org/1999/xlink",t.toLowerCase(),r):e.setAttribute(t,r))}else e.className=r||""}function w(e){return this._listeners[e.type](o.event&&o.event(e)||e)}var _=[],x=0,k=!1,S=!1;function j(){for(var e;e=_.shift();)o.afterMount&&o.afterMount(e),e.componentDidMount&&e.componentDidMount()}function O(e,t,n,r,o,i){x++||(k=null!=o&&void 0!==o.ownerSVGElement,S=null!=e&&!("__preactattr_"in e));var s=C(e,t,n,r,i);return o&&s.parentNode!==o&&o.appendChild(s),--x||(S=!1,i||j()),s}function C(e,t,n,r,o){var i=e,s=k;if(null!=t&&"boolean"!=typeof t||(t=""),"string"==typeof t||"number"==typeof t)return e&&void 0!==e.splitText&&e.parentNode&&(!e._component||o)?e.nodeValue!=t&&(e.nodeValue=t):(i=document.createTextNode(t),e&&(e.parentNode&&e.parentNode.replaceChild(i,e),M(e,!0))),i.__preactattr_=!0,i;var a,l,u=t.nodeName;if("function"==typeof u)return function(e,t,n,r){var o=e&&e._component,i=o,s=e,a=o&&e._componentConstructor===t.nodeName,l=a,u=v(t);for(;o&&!l&&(o=o._parentComponent);)l=o.constructor===t.nodeName;o&&l&&(!r||o._component)?(N(o,u,3,n,r),e=o.base):(i&&!a&&(T(i),e=s=null),o=L(t.nodeName,u,n),e&&!o.nextBase&&(o.nextBase=e,s=null),N(o,u,1,n,r),e=o.base,s&&e!==s&&(s._component=null,M(s,!1)));return e}(e,t,n,r);if(k="svg"===u||"foreignObject"!==u&&k,u=String(u),(!e||!m(e,u))&&(a=u,(l=k?document.createElementNS("http://www.w3.org/2000/svg",a):document.createElement(a)).normalizedNodeName=a,i=l,e)){for(;e.firstChild;)i.appendChild(e.firstChild);e.parentNode&&e.parentNode.replaceChild(i,e),M(e,!0)}var c=i.firstChild,f=i.__preactattr_,d=t.children;if(null==f){f=i.__preactattr_={};for(var p=i.attributes,h=p.length;h--;)f[p[h].name]=p[h].value}return!S&&d&&1===d.length&&"string"==typeof d[0]&&null!=c&&void 0!==c.splitText&&null==c.nextSibling?c.nodeValue!=d[0]&&(c.nodeValue=d[0]):(d&&d.length||null!=c)&&function(e,t,n,r,o){var i,s,a,l,u,c=e.childNodes,f=[],d={},p=0,h=0,g=c.length,v=0,y=t?t.length:0;if(0!==g)for(var w=0;w<g;w++){var _=c[w],x=_.__preactattr_,k=y&&x?_._component?_._component.__key:x.key:null;null!=k?(p++,d[k]=_):(x||(void 0!==_.splitText?!o||_.nodeValue.trim():o))&&(f[v++]=_)}if(0!==y)for(var w=0;w<y;w++){l=t[w],u=null;var k=l.key;if(null!=k)p&&void 0!==d[k]&&(u=d[k],d[k]=void 0,p--);else if(h<v)for(i=h;i<v;i++)if(void 0!==f[i]&&(S=s=f[i],O=o,"string"==typeof(j=l)||"number"==typeof j?void 0!==S.splitText:"string"==typeof j.nodeName?!S._componentConstructor&&m(S,j.nodeName):O||S._componentConstructor===j.nodeName)){u=s,f[i]=void 0,i===v-1&&v--,i===h&&h++;break}u=C(u,l,n,r),a=c[w],u&&u!==e&&u!==a&&(null==a?e.appendChild(u):u===a.nextSibling?b(a):e.insertBefore(u,a))}var S,j,O;if(p)for(var w in d)void 0!==d[w]&&M(d[w],!1);for(;h<=v;)void 0!==(u=f[v--])&&M(u,!1)}(i,d,n,r,S||null!=f.dangerouslySetInnerHTML),function(e,t,n){var r;for(r in n)t&&null!=t[r]||null==n[r]||y(e,r,n[r],n[r]=void 0,k);for(r in t)"children"===r||"innerHTML"===r||r in n&&t[r]===("value"===r||"checked"===r?e[r]:n[r])||y(e,r,n[r],n[r]=t[r],k)}(i,t.attributes,f),k=s,i}function M(e,t){var n=e._component;n?T(n):(null!=e.__preactattr_&&u(e.__preactattr_.ref,null),!1!==t&&null!=e.__preactattr_||b(e),E(e))}function E(e){for(e=e.lastChild;e;){var t=e.previousSibling;M(e,!0),e=t}}var A=[];function L(e,t,n){var r,o=A.length;for(e.prototype&&e.prototype.render?(r=new e(t,n),D.call(r,t,n)):((r=new D(t,n)).constructor=e,r.render=P);o--;)if(A[o].constructor===e)return r.nextBase=A[o].nextBase,A.splice(o,1),r;return r}function P(e,t,n){return this.constructor(e,n)}function N(e,t,n,r,i){e._disable||(e._disable=!0,e.__ref=t.ref,e.__key=t.key,delete t.ref,delete t.key,void 0===e.constructor.getDerivedStateFromProps&&(!e.base||i?e.componentWillMount&&e.componentWillMount():e.componentWillReceiveProps&&e.componentWillReceiveProps(t,r)),r&&r!==e.context&&(e.prevContext||(e.prevContext=e.context),e.context=r),e.prevProps||(e.prevProps=e.props),e.props=t,e._disable=!1,0!==n&&(1!==n&&!1===o.syncComponentUpdates&&e.base?h(e):$(e,1,i)),u(e.__ref,e))}function $(e,t,n,r){if(!e._disable){var i,s,a,u=e.props,c=e.state,f=e.context,d=e.prevProps||u,p=e.prevState||c,h=e.prevContext||f,g=e.base,m=e.nextBase,b=g||m,y=e._component,w=!1,k=h;if(e.constructor.getDerivedStateFromProps&&(c=l(l({},c),e.constructor.getDerivedStateFromProps(u,c)),e.state=c),g&&(e.props=d,e.state=p,e.context=h,2!==t&&e.shouldComponentUpdate&&!1===e.shouldComponentUpdate(u,c,f)?w=!0:e.componentWillUpdate&&e.componentWillUpdate(u,c,f),e.props=u,e.state=c,e.context=f),e.prevProps=e.prevState=e.prevContext=e.nextBase=null,e._dirty=!1,!w){i=e.render(u,c,f),e.getChildContext&&(f=l(l({},f),e.getChildContext())),g&&e.getSnapshotBeforeUpdate&&(k=e.getSnapshotBeforeUpdate(d,p));var S,C,E=i&&i.nodeName;if("function"==typeof E){var A=v(i);(s=y)&&s.constructor===E&&A.key==s.__key?N(s,A,1,f,!1):(S=s,e._component=s=L(E,A,f),s.nextBase=s.nextBase||m,s._parentComponent=e,N(s,A,0,f,!1),$(s,1,n,!0)),C=s.base}else a=b,(S=y)&&(a=e._component=null),(b||1===t)&&(a&&(a._component=null),C=O(a,i,f,n||!g,b&&b.parentNode,!0));if(b&&C!==b&&s!==y){var P=b.parentNode;P&&C!==P&&(P.replaceChild(C,b),S||(b._component=null,M(b,!1)))}if(S&&T(S),e.base=C,C&&!r){for(var D=e,R=e;R=R._parentComponent;)(D=R).base=C;C._component=D,C._componentConstructor=D.constructor}}for(!g||n?_.push(e):w||(e.componentDidUpdate&&e.componentDidUpdate(d,p,k),o.afterUpdate&&o.afterUpdate(e));e._renderCallbacks.length;)e._renderCallbacks.pop().call(e);x||r||j()}}function T(e){o.beforeUnmount&&o.beforeUnmount(e);var t=e.base;e._disable=!0,e.componentWillUnmount&&e.componentWillUnmount(),e.base=null;var n=e._component;n?T(n):t&&(null!=t.__preactattr_&&u(t.__preactattr_.ref,null),e.nextBase=t,b(t),A.push(e),E(t)),u(e.__ref,null)}function D(e,t){this._dirty=!0,this.context=t,this.props=e,this.state=this.state||{},this._renderCallbacks=[]}function R(e,t,n){return O(n,e,{},!1,t,!1)}function q(){return{}}l(D.prototype,{setState:function(e,t){this.prevState||(this.prevState=this.state),this.state=l(l({},this.state),"function"==typeof e?e(this.state,this.props):e),t&&this._renderCallbacks.push(t),h(this)},forceUpdate:function(e){e&&this._renderCallbacks.push(e),$(this,2)},render:function(){}});var z={h:a,createElement:a,cloneElement:f,createRef:q,Component:D,render:R,rerender:g,options:o};t.default=z},function(e,t){e.exports=function(){throw new Error("define cannot be used indirect")}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.warn=t.log=t.defaults=void 0,t.default=function(e){return{log:function(t){l(e,t)},warn:function(t){u(e,t)}}};var r,o=n(1),i=(r=o)&&r.__esModule?r:{default:r},s=n(0);t.defaults={"config.logger.show.parse":!1,"config.logger.show.render":!1,"config.logger.show.sound":!1,"config.logger.show.state":!1,"config.logger.show.story":!1,"config.logger.show.style":!1};function a(e){return e+": "}function l(e,t){(0,s.get)("config.logger.show."+e)&&console.log(a(e)+t),i.default.emit("log",{source:e,message:t})}function u(e,t){console.warn(a(e)+t),i.default.emit("log-warning",{source:e,message:t})}t.log=l,t.warn=u,window.logger={log:l,warn:u}},function(e,t,n){"use strict";function r(e,t){var n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:[],r=document.createElement(e);return Object.keys(t).forEach(function(e){void 0!==t[e]&&r.setAttribute(e,t[e])}),n.forEach(function(e){"string"==typeof e?r.appendChild(document.createTextNode(e)):r.appendChild(e)}),r}Object.defineProperty(t,"__esModule",{value:!0}),t.domify=r,t.default=function(){return r.apply(void 0,arguments).outerHTML}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.passages=void 0,t.loadFromData=function(e){["name","creator","ifid","options"].forEach(function(t){return u[t]=e.getAttribute(t)}),u.startNode=parseInt(e.getAttribute("startnode")),u.creatorVersion=e.getAttribute("creator-version");var t=function(e){return e.map(function(e){return e.textContent})};u.customScripts=t((0,s.selectAll)(e,'[type="text/twine-javascript"]')),u.customStyles=t((0,s.selectAll)(e,'[type="text/twine-css"]')),c=(0,s.selectAll)(e,"tw-passagedata").map(function(e){var t={id:parseInt(e.getAttribute("pid")),name:e.getAttribute("name"),source:e.textContent},n=e.getAttribute("tags");return t.tags=n?n.split(" "):[],t})},t.init=function(){(0,a.setDefault)("trail",[d().name]),(0,a.setDefault)("config.testing","string"==typeof u.options&&-1!==u.options.indexOf("debug")||!1),document.title=u.name},t.runCustomScripts=function(){l.log("Running custom scripts ("+u.customScripts.length+")"),u.customScripts.forEach(function(e){new Function(e).apply(window)})},t.addCustomStyles=function(){l.log("Adding custom styles ("+u.customStyles.length+")"),u.customStyles.forEach(function(e){var t=document.createElement("style");t.innerHTML=e,document.head.appendChild(t)})},t.ifid=function(){return u.ifid},t.name=function(){return u.name},t.exportedPassages=f,t.startPassage=d,t.passageNamed=function(e){return c.find(function(t){return t.name===e})},t.passageWithId=function(e){return c.find(function(t){return t.id===e})};var r,o=n(4),i=(r=o)&&r.__esModule?r:{default:r},s=n(7),a=n(0);var l=(0,i.default)("story"),u={customScripts:[],customStyles:[]},c=[];function f(){return c}function d(){return c.find(function(e){return e.id===u.startNode})}t.passages=f},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.select=function(e,t){return e.querySelector(t)},t.selectAll=function(e,t){return Array.from(e.querySelectorAll(t))}},function(e,t){e.exports=function(e){return e.webpackPolyfill||(e.deprecate=function(){},e.paths=[],e.children||(e.children=[]),Object.defineProperty(e,"loaded",{enumerable:!0,get:function(){return e.l}}),Object.defineProperty(e,"id",{enumerable:!0,get:function(){return e.i}}),e.webpackPolyfill=1),e}},function(e,t){(function(t){e.exports=t}).call(this,{})},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=n(2);n(46);t.default=class extends r.Component{constructor(e){super(e),this.state={open:void 0===this.props.initiallyOpen||this.props.initiallyOpen}}toggle(){this.setState({open:!this.state.open})}render(){return(0,r.h)("div",{class:"panel"+(this.state.open?" open":"")},(0,r.h)("h2",null,(0,r.h)("button",{onClick:()=>this.toggle()},this.props.title)),this.state.open&&(0,r.h)("div",{class:"content"},this.props.children))}}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.defaults=void 0,t.render=function(e){var t=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return(0,s.default)((0,i.default)(e),(0,a.get)("config.template.inserts")||[],(0,a.get)("config.template.modifiers")||[],t)};var r=l(n(60)),o=l(n(84)),i=l(n(94)),s=l(n(96)),a=n(0);function l(e){return e&&e.__esModule?e:{default:e}}t.defaults={"config.template.inserts":r.default,"config.template.modifiers":o.default}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.defaults=void 0,t.init=function(){(0,a.init)(),(0,l.init)(),h=document.querySelector("#page article"),m=document.querySelector("#page #spinner"),g={},["header","footer"].forEach(function(e){g[e]={container:document.querySelector("#page "+e)},["left","center","right"].forEach(function(t){g[e][t]=document.querySelector("#page "+e+" ."+t)})}),o.default.on("state-change",function(e){var t=e.name;return y("trail"===t)}),["change","click"].forEach(function(e){document.body.addEventListener(e,function(e){for(var t=e.target;t;)t.dataset&&Object.keys(t.dataset).some(function(e){return/^cb[A-Z]/.test(e)})&&o.default.emit("dom-"+e.type,t),t=t.parentNode})})},t.changeBody=function(e){(0,d.selectAll)(h,"input").forEach(function(e){e.setAttribute("value",e.value)}),(0,d.selectAll)(h,"select").forEach(function(e){for(var t=0;t<e.options.length;t++)t===e.options.selectedIndex?e.options[t].setAttribute("selected",""):e.options[t].removeAttribute("selected")});var t={x:window.scrollX,y:window.scrollY},n=h.innerHTML,r=document.createElement("div");for(;h.firstChild;)r.insertBefore(h.firstChild,r.firstChild);h.innerHTML=n,e(r),window.scrollX=t.x,window.scrollY=t.y,b(h,r.innerHTML,(0,s.get)("config.body.transition.name"),(0,s.get)("config.body.transition.duration"))};var r=p(n(20)),o=p(n(1)),i=n(64),s=n(0),a=n(66),l=n(69),u=n(6),c=n(11),f=p(n(71));n(72);var d=n(7);function p(e){return e&&e.__esModule?e:{default:e}}var h=void 0,g=void 0,m=void 0,v={crossfade:i.crossfade,fadeInOut:i.fadeInOut,none:i.none};t.defaults={"config.body.transition.name":"crossfade","config.body.transition.duration":"500ms","config.header.left":"","config.header.center":"","config.header.right":"","config.header.transition.name":"none","config.header.transition.duration":"500ms","config.footer.left":"_{story.name}_","config.footer.center":"","config.footer.right":"{restart link}","config.footer.transition.name":"none","config.footer.transition.duration":"500ms"};function b(e,t,n,r){v[n]?v[n](e,t,r):v.none(e,t)}var y=(0,r.default)(function(e){if(e.some(function(e){return e[0]})){var t=(0,s.get)("trail"),n=(0,u.passageNamed)(t[t.length-1]);if(!n)throw new Error('There is no passage named "'+t[t.length-1]+'".');window.scrollTo(0,0),b(h,(0,c.render)(n.source),(0,s.get)("config.body.transition.name"),(0,s.get)("config.body.transition.duration")),(0,f.default)(h,m)}["header","footer"].forEach(function(e){g[e].container.classList.remove("has-content"),["left","center","right"].forEach(function(t){var n=(0,c.render)((0,s.get)("config."+e+"."+t));""!==n&&g[e].container.classList.add("has-content"),b(g[e][t],n,(0,s.get)("config."+e+".transition.name"),(0,s.get)("config."+e+".transition.duration"))})})})},function(e,t,n){"use strict";e.exports=function(e,t,n){n=Object.assign({},r,n||{});let o=0,s=function(e){let t={ms:.001,s:1,m:60,h:3600};return t.d=e.hoursPerDay*t.h,t.w=e.daysPerWeek*t.d,t.mth=e.daysPerYear/e.monthsPerYear*t.d,t.y=e.daysPerYear*t.d,t}(n),a=e.toLowerCase().replace(/[^.\w+-]+/g,"").match(/[-+]?[0-9.]+[a-z]+/g);null!==a&&a.forEach(e=>{let t=e.match(/[0-9.]+/g)[0],n=e.match(/[a-z]+/g)[0];o+=function(e,t,n){return e*n[i(t)]}(t,n,s)});if(t)return function(e,t,n){return e/n[i(t)]}(o,t,s);return o};const r={hoursPerDay:24,daysPerWeek:7,weeksPerMonth:4,monthsPerYear:12,daysPerYear:365.25},o={ms:["ms","milli","millisecond","milliseconds"],s:["s","sec","secs","second","seconds"],m:["m","min","mins","minute","minutes"],h:["h","hr","hrs","hour","hours"],d:["d","day","days"],w:["w","week","weeks"],mth:["mon","mth","mths","month","months"],y:["y","yr","yrs","year","years"]};function i(e){for(let t of Object.keys(o))if(o[t].indexOf(e)>-1)return t;throw new Error(`The unit [${e}] is not supported by timestring`)}},function(e,t){function n(e,t){if(!e)throw new Error(t||"AssertionError")}n.notEqual=function(e,t,r){n(e!=t,r)},n.notOk=function(e,t){n(!e,t)},n.equal=function(e,t,r){n(e==t,r)},n.ok=n,e.exports=n},function(e,t,n){"use strict";
+--</tw-passagedata><tw-passagedata pid="152" name="west wing-&gt;" tags="" position="702,746" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata><script>!function(e){var t={};function n(r){if(t[r])return t[r].exports;var o=t[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,n),o.l=!0,o.exports}n.m=e,n.c=t,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)n.d(r,o,function(t){return e[t]}.bind(null,o));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=28)}([function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.get=t.set=t.defaults=void 0;var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};t.init=function(){var e=(0,u.ifid)(),t=(0,u.name)();if(void 0===t)throw new Error("Cannot set up state: the story has no name");d="chapbook-state-"+t+"-"+e},t.reset=v,t.sameObject=function(e,t){for(var n=e.split("."),r=t.split("."),o=0;o<n.length&&o<r.length;o++)if(n[o]!==r[o])return!1;return!0},t.setDefault=function(e,t){var n=y(e);f('Defaulting "'+e+'" to '+JSON.stringify(t)),(0,i.default)(h,e,t),m(window,e),null==n&&a.default.emit("state-change",{name:e,value:t,previous:n})},t.setLookup=function(e,t){var n=y(e);f("Adding lookup variable "+e),(0,i.default)(g,e,t),function(e,t){if(!e[t]){for(var n=t.split("."),r=n[n.length-1],o=0;o<n.length-1;o++)e[n[o]]=e[n[o]]||{},e=e[n[o]];Object.defineProperty(e,r,{get:function(){return y(t)},set:function(){throw new Error("Chapbook lookup variables may only be read.")},configurable:!0})}}(window,e),null==n&&a.default.emit("state-change",{name:e,value:y(e),previous:n})},t.saveToObject=w,t.restoreFromObject=_,t.canSaveToStorage=x,t.saveToStorage=k,t.canRestoreFromStorage=function(){return x()&&null!==window.localStorage.getItem(d)},t.restoreFromStorage=function(){f("Restoring variables from local storage"),_(JSON.parse(window.localStorage.getItem(d))),f("Restore complete")},t.purgeFromStorage=function(e){e||f("Purging variables from local storage");_(JSON.parse(window.localStorage.getItem(d))),e||f("Purge complete")},t.varNames=function(e){function t(e,n){var o=arguments.length>2&&void 0!==arguments[2]?arguments[2]:[];return Object.keys(e).reduce(function(o,i){if("object"===r(e[i])&&e[i]&&!Array.isArray(e[i]))t(e[i],n?n+"."+i:i,o);else{var s=n?n+"."+i:i;-1===o.indexOf(s)&&o.push(s)}return o},o)}if(e)return t(h,null,t(p,null)).sort();return t(p).sort()};var o=c(n(34)),i=c(n(35)),s=c(n(37)),a=c(n(1)),l=c(n(4)),u=n(6);function c(e){return e&&e.__esModule?e:{default:e}}var f=(0,l.default)("state").log,d=void 0,p={},h={},g={};function m(e,t){if(!e[t]){Object.defineProperty(e,t,{get:function(){return y(t)},set:function(e){b(t,e)},configurable:!0});var n=t.split(".");n.length>1&&(n.pop(),m(e,n.join(".")))}}function v(){!function e(t,n){Object.keys(t).forEach(function(o){var i,l,u=""===n?o:n+"."+o;if("object"!==r(t[o])||Array.isArray(t[o])){var c=t[o];delete t[o],i=window,l=n,(0,s.default)(i,l),a.default.emit("state-change",{name:u,value:y(u),previous:c})}else e(t[o],u)})}(p,""),a.default.emit("state-reset"),y("config.state.autosave")&&k()}function b(e,t){var n=y(e);(0,i.default)(p,e,t),m(window,e),t!==n&&a.default.emit("state-change",{name:e,previous:n,value:t}),y("config.state.autosave")&&k()}function y(e){var t=(0,o.default)(g,e);if("function"==typeof t)return t(y,b);var n=(0,o.default)(p,e);return null==n?(0,o.default)(h,e):n}function w(){return Object.assign({},p)}function _(e){v(),Object.keys(e).forEach(function(t){return b(t,e[t])})}function x(){try{return window.localStorage.setItem("chapbook-test","a"),window.localStorage.removeItem("chapbook-test"),!0}catch(e){return!1}}function k(){f("Saving to local storage: "+JSON.stringify(w())),window.localStorage.setItem(d,JSON.stringify(w())),f("Save complete")}t.defaults={"config.state.autosave":!0},t.set=b,t.get=y},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r,o=n(30),i=(r=o)&&r.__esModule?r:{default:r};t.default=(0,i.default)()},function(e,t,n){"use strict";n.r(t),n.d(t,"h",function(){return a}),n.d(t,"createElement",function(){return a}),n.d(t,"cloneElement",function(){return f}),n.d(t,"createRef",function(){return q}),n.d(t,"Component",function(){return D}),n.d(t,"render",function(){return R}),n.d(t,"rerender",function(){return g}),n.d(t,"options",function(){return o});var r=function(){},o={},i=[],s=[];function a(e,t){var n,a,l,u,c=s;for(u=arguments.length;u-- >2;)i.push(arguments[u]);for(t&&null!=t.children&&(i.length||i.push(t.children),delete t.children);i.length;)if((a=i.pop())&&void 0!==a.pop)for(u=a.length;u--;)i.push(a[u]);else"boolean"==typeof a&&(a=null),(l="function"!=typeof e)&&(null==a?a="":"number"==typeof a?a=String(a):"string"!=typeof a&&(l=!1)),l&&n?c[c.length-1]+=a:c===s?c=[a]:c.push(a),n=l;var f=new r;return f.nodeName=e,f.children=c,f.attributes=null==t?void 0:t,f.key=null==t?void 0:t.key,void 0!==o.vnode&&o.vnode(f),f}function l(e,t){for(var n in t)e[n]=t[n];return e}function u(e,t){null!=e&&("function"==typeof e?e(t):e.current=t)}var c="function"==typeof Promise?Promise.resolve().then.bind(Promise.resolve()):setTimeout;function f(e,t){return a(e.nodeName,l(l({},e.attributes),t),arguments.length>2?[].slice.call(arguments,2):e.children)}var d=/acit|ex(?:s|g|n|p|$)|rph|ows|mnc|ntw|ine[ch]|zoo|^ord/i,p=[];function h(e){!e._dirty&&(e._dirty=!0)&&1==p.push(e)&&(o.debounceRendering||c)(g)}function g(){for(var e;e=p.pop();)e._dirty&&$(e)}function m(e,t){return e.normalizedNodeName===t||e.nodeName.toLowerCase()===t.toLowerCase()}function v(e){var t=l({},e.attributes);t.children=e.children;var n=e.nodeName.defaultProps;if(void 0!==n)for(var r in n)void 0===t[r]&&(t[r]=n[r]);return t}function b(e){var t=e.parentNode;t&&t.removeChild(e)}function y(e,t,n,r,o){if("className"===t&&(t="class"),"key"===t);else if("ref"===t)u(n,null),u(r,e);else if("class"!==t||o)if("style"===t){if(r&&"string"!=typeof r&&"string"!=typeof n||(e.style.cssText=r||""),r&&"object"==typeof r){if("string"!=typeof n)for(var i in n)i in r||(e.style[i]="");for(var i in r)e.style[i]="number"==typeof r[i]&&!1===d.test(i)?r[i]+"px":r[i]}}else if("dangerouslySetInnerHTML"===t)r&&(e.innerHTML=r.__html||"");else if("o"==t[0]&&"n"==t[1]){var s=t!==(t=t.replace(/Capture$/,""));t=t.toLowerCase().substring(2),r?n||e.addEventListener(t,w,s):e.removeEventListener(t,w,s),(e._listeners||(e._listeners={}))[t]=r}else if("list"!==t&&"type"!==t&&!o&&t in e){try{e[t]=null==r?"":r}catch(e){}null!=r&&!1!==r||"spellcheck"==t||e.removeAttribute(t)}else{var a=o&&t!==(t=t.replace(/^xlink:?/,""));null==r||!1===r?a?e.removeAttributeNS("http://www.w3.org/1999/xlink",t.toLowerCase()):e.removeAttribute(t):"function"!=typeof r&&(a?e.setAttributeNS("http://www.w3.org/1999/xlink",t.toLowerCase(),r):e.setAttribute(t,r))}else e.className=r||""}function w(e){return this._listeners[e.type](o.event&&o.event(e)||e)}var _=[],x=0,k=!1,S=!1;function j(){for(var e;e=_.shift();)o.afterMount&&o.afterMount(e),e.componentDidMount&&e.componentDidMount()}function O(e,t,n,r,o,i){x++||(k=null!=o&&void 0!==o.ownerSVGElement,S=null!=e&&!("__preactattr_"in e));var s=C(e,t,n,r,i);return o&&s.parentNode!==o&&o.appendChild(s),--x||(S=!1,i||j()),s}function C(e,t,n,r,o){var i=e,s=k;if(null!=t&&"boolean"!=typeof t||(t=""),"string"==typeof t||"number"==typeof t)return e&&void 0!==e.splitText&&e.parentNode&&(!e._component||o)?e.nodeValue!=t&&(e.nodeValue=t):(i=document.createTextNode(t),e&&(e.parentNode&&e.parentNode.replaceChild(i,e),M(e,!0))),i.__preactattr_=!0,i;var a,l,u=t.nodeName;if("function"==typeof u)return function(e,t,n,r){var o=e&&e._component,i=o,s=e,a=o&&e._componentConstructor===t.nodeName,l=a,u=v(t);for(;o&&!l&&(o=o._parentComponent);)l=o.constructor===t.nodeName;o&&l&&(!r||o._component)?(N(o,u,3,n,r),e=o.base):(i&&!a&&(T(i),e=s=null),o=L(t.nodeName,u,n),e&&!o.nextBase&&(o.nextBase=e,s=null),N(o,u,1,n,r),e=o.base,s&&e!==s&&(s._component=null,M(s,!1)));return e}(e,t,n,r);if(k="svg"===u||"foreignObject"!==u&&k,u=String(u),(!e||!m(e,u))&&(a=u,(l=k?document.createElementNS("http://www.w3.org/2000/svg",a):document.createElement(a)).normalizedNodeName=a,i=l,e)){for(;e.firstChild;)i.appendChild(e.firstChild);e.parentNode&&e.parentNode.replaceChild(i,e),M(e,!0)}var c=i.firstChild,f=i.__preactattr_,d=t.children;if(null==f){f=i.__preactattr_={};for(var p=i.attributes,h=p.length;h--;)f[p[h].name]=p[h].value}return!S&&d&&1===d.length&&"string"==typeof d[0]&&null!=c&&void 0!==c.splitText&&null==c.nextSibling?c.nodeValue!=d[0]&&(c.nodeValue=d[0]):(d&&d.length||null!=c)&&function(e,t,n,r,o){var i,s,a,l,u,c=e.childNodes,f=[],d={},p=0,h=0,g=c.length,v=0,y=t?t.length:0;if(0!==g)for(var w=0;w<g;w++){var _=c[w],x=_.__preactattr_,k=y&&x?_._component?_._component.__key:x.key:null;null!=k?(p++,d[k]=_):(x||(void 0!==_.splitText?!o||_.nodeValue.trim():o))&&(f[v++]=_)}if(0!==y)for(var w=0;w<y;w++){l=t[w],u=null;var k=l.key;if(null!=k)p&&void 0!==d[k]&&(u=d[k],d[k]=void 0,p--);else if(h<v)for(i=h;i<v;i++)if(void 0!==f[i]&&(S=s=f[i],O=o,"string"==typeof(j=l)||"number"==typeof j?void 0!==S.splitText:"string"==typeof j.nodeName?!S._componentConstructor&&m(S,j.nodeName):O||S._componentConstructor===j.nodeName)){u=s,f[i]=void 0,i===v-1&&v--,i===h&&h++;break}u=C(u,l,n,r),a=c[w],u&&u!==e&&u!==a&&(null==a?e.appendChild(u):u===a.nextSibling?b(a):e.insertBefore(u,a))}var S,j,O;if(p)for(var w in d)void 0!==d[w]&&M(d[w],!1);for(;h<=v;)void 0!==(u=f[v--])&&M(u,!1)}(i,d,n,r,S||null!=f.dangerouslySetInnerHTML),function(e,t,n){var r;for(r in n)t&&null!=t[r]||null==n[r]||y(e,r,n[r],n[r]=void 0,k);for(r in t)"children"===r||"innerHTML"===r||r in n&&t[r]===("value"===r||"checked"===r?e[r]:n[r])||y(e,r,n[r],n[r]=t[r],k)}(i,t.attributes,f),k=s,i}function M(e,t){var n=e._component;n?T(n):(null!=e.__preactattr_&&u(e.__preactattr_.ref,null),!1!==t&&null!=e.__preactattr_||b(e),E(e))}function E(e){for(e=e.lastChild;e;){var t=e.previousSibling;M(e,!0),e=t}}var A=[];function L(e,t,n){var r,o=A.length;for(e.prototype&&e.prototype.render?(r=new e(t,n),D.call(r,t,n)):((r=new D(t,n)).constructor=e,r.render=P);o--;)if(A[o].constructor===e)return r.nextBase=A[o].nextBase,A.splice(o,1),r;return r}function P(e,t,n){return this.constructor(e,n)}function N(e,t,n,r,i){e._disable||(e._disable=!0,e.__ref=t.ref,e.__key=t.key,delete t.ref,delete t.key,void 0===e.constructor.getDerivedStateFromProps&&(!e.base||i?e.componentWillMount&&e.componentWillMount():e.componentWillReceiveProps&&e.componentWillReceiveProps(t,r)),r&&r!==e.context&&(e.prevContext||(e.prevContext=e.context),e.context=r),e.prevProps||(e.prevProps=e.props),e.props=t,e._disable=!1,0!==n&&(1!==n&&!1===o.syncComponentUpdates&&e.base?h(e):$(e,1,i)),u(e.__ref,e))}function $(e,t,n,r){if(!e._disable){var i,s,a,u=e.props,c=e.state,f=e.context,d=e.prevProps||u,p=e.prevState||c,h=e.prevContext||f,g=e.base,m=e.nextBase,b=g||m,y=e._component,w=!1,k=h;if(e.constructor.getDerivedStateFromProps&&(c=l(l({},c),e.constructor.getDerivedStateFromProps(u,c)),e.state=c),g&&(e.props=d,e.state=p,e.context=h,2!==t&&e.shouldComponentUpdate&&!1===e.shouldComponentUpdate(u,c,f)?w=!0:e.componentWillUpdate&&e.componentWillUpdate(u,c,f),e.props=u,e.state=c,e.context=f),e.prevProps=e.prevState=e.prevContext=e.nextBase=null,e._dirty=!1,!w){i=e.render(u,c,f),e.getChildContext&&(f=l(l({},f),e.getChildContext())),g&&e.getSnapshotBeforeUpdate&&(k=e.getSnapshotBeforeUpdate(d,p));var S,C,E=i&&i.nodeName;if("function"==typeof E){var A=v(i);(s=y)&&s.constructor===E&&A.key==s.__key?N(s,A,1,f,!1):(S=s,e._component=s=L(E,A,f),s.nextBase=s.nextBase||m,s._parentComponent=e,N(s,A,0,f,!1),$(s,1,n,!0)),C=s.base}else a=b,(S=y)&&(a=e._component=null),(b||1===t)&&(a&&(a._component=null),C=O(a,i,f,n||!g,b&&b.parentNode,!0));if(b&&C!==b&&s!==y){var P=b.parentNode;P&&C!==P&&(P.replaceChild(C,b),S||(b._component=null,M(b,!1)))}if(S&&T(S),e.base=C,C&&!r){for(var D=e,R=e;R=R._parentComponent;)(D=R).base=C;C._component=D,C._componentConstructor=D.constructor}}for(!g||n?_.push(e):w||(e.componentDidUpdate&&e.componentDidUpdate(d,p,k),o.afterUpdate&&o.afterUpdate(e));e._renderCallbacks.length;)e._renderCallbacks.pop().call(e);x||r||j()}}function T(e){o.beforeUnmount&&o.beforeUnmount(e);var t=e.base;e._disable=!0,e.componentWillUnmount&&e.componentWillUnmount(),e.base=null;var n=e._component;n?T(n):t&&(null!=t.__preactattr_&&u(t.__preactattr_.ref,null),e.nextBase=t,b(t),A.push(e),E(t)),u(e.__ref,null)}function D(e,t){this._dirty=!0,this.context=t,this.props=e,this.state=this.state||{},this._renderCallbacks=[]}function R(e,t,n){return O(n,e,{},!1,t,!1)}function q(){return{}}l(D.prototype,{setState:function(e,t){this.prevState||(this.prevState=this.state),this.state=l(l({},this.state),"function"==typeof e?e(this.state,this.props):e),t&&this._renderCallbacks.push(t),h(this)},forceUpdate:function(e){e&&this._renderCallbacks.push(e),$(this,2)},render:function(){}});var z={h:a,createElement:a,cloneElement:f,createRef:q,Component:D,render:R,rerender:g,options:o};t.default=z},function(e,t){e.exports=function(){throw new Error("define cannot be used indirect")}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.warn=t.log=t.defaults=void 0,t.default=function(e){return{log:function(t){l(e,t)},warn:function(t){u(e,t)}}};var r,o=n(1),i=(r=o)&&r.__esModule?r:{default:r},s=n(0);t.defaults={"config.logger.show.parse":!1,"config.logger.show.render":!1,"config.logger.show.sound":!1,"config.logger.show.state":!1,"config.logger.show.story":!1,"config.logger.show.style":!1};function a(e){return e+": "}function l(e,t){(0,s.get)("config.logger.show."+e)&&console.log(a(e)+t),i.default.emit("log",{source:e,message:t})}function u(e,t){console.warn(a(e)+t),i.default.emit("log-warning",{source:e,message:t})}t.log=l,t.warn=u,window.logger={log:l,warn:u}},function(e,t,n){"use strict";function r(e,t){var n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:[],r=document.createElement(e);return Object.keys(t).forEach(function(e){void 0!==t[e]&&r.setAttribute(e,t[e])}),n.forEach(function(e){"string"==typeof e?r.appendChild(document.createTextNode(e)):r.appendChild(e)}),r}Object.defineProperty(t,"__esModule",{value:!0}),t.domify=r,t.default=function(){return r.apply(void 0,arguments).outerHTML}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.passages=void 0,t.loadFromData=function(e){["name","creator","ifid","options"].forEach(function(t){return u[t]=e.getAttribute(t)}),u.startNode=parseInt(e.getAttribute("startnode")),u.creatorVersion=e.getAttribute("creator-version");var t=function(e){return e.map(function(e){return e.textContent})};u.customScripts=t((0,s.selectAll)(e,'[type="text/twine-javascript"]')),u.customStyles=t((0,s.selectAll)(e,'[type="text/twine-css"]')),c=(0,s.selectAll)(e,"tw-passagedata").map(function(e){var t={id:parseInt(e.getAttribute("pid")),name:e.getAttribute("name"),source:e.textContent},n=e.getAttribute("tags");return t.tags=n?n.split(" "):[],t})},t.init=function(){(0,a.setDefault)("trail",[d().name]),(0,a.setDefault)("config.testing","string"==typeof u.options&&-1!==u.options.indexOf("debug")||!1),document.title=u.name},t.runCustomScripts=function(){l.log("Running custom scripts ("+u.customScripts.length+")"),u.customScripts.forEach(function(e){new Function(e).apply(window)})},t.addCustomStyles=function(){l.log("Adding custom styles ("+u.customStyles.length+")"),u.customStyles.forEach(function(e){var t=document.createElement("style");t.innerHTML=e,document.head.appendChild(t)})},t.ifid=function(){return u.ifid},t.name=function(){return u.name},t.exportedPassages=f,t.startPassage=d,t.passageNamed=function(e){return c.find(function(t){return t.name===e})},t.passageWithId=function(e){return c.find(function(t){return t.id===e})};var r,o=n(4),i=(r=o)&&r.__esModule?r:{default:r},s=n(7),a=n(0);var l=(0,i.default)("story"),u={customScripts:[],customStyles:[]},c=[];function f(){return c}function d(){return c.find(function(e){return e.id===u.startNode})}t.passages=f},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.select=function(e,t){return e.querySelector(t)},t.selectAll=function(e,t){return Array.from(e.querySelectorAll(t))}},function(e,t){e.exports=function(e){return e.webpackPolyfill||(e.deprecate=function(){},e.paths=[],e.children||(e.children=[]),Object.defineProperty(e,"loaded",{enumerable:!0,get:function(){return e.l}}),Object.defineProperty(e,"id",{enumerable:!0,get:function(){return e.i}}),e.webpackPolyfill=1),e}},function(e,t){(function(t){e.exports=t}).call(this,{})},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r=n(2);n(46);t.default=class extends r.Component{constructor(e){super(e),this.state={open:void 0===this.props.initiallyOpen||this.props.initiallyOpen}}toggle(){this.setState({open:!this.state.open})}render(){return(0,r.h)("div",{class:"panel"+(this.state.open?" open":"")},(0,r.h)("h2",null,(0,r.h)("button",{onClick:()=>this.toggle()},this.props.title)),this.state.open&&(0,r.h)("div",{class:"content"},this.props.children))}}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.defaults=void 0,t.render=function(e){var t=arguments.length>1&&void 0!==arguments[1]&&arguments[1];return(0,s.default)((0,i.default)(e),(0,a.get)("config.template.inserts")||[],(0,a.get)("config.template.modifiers")||[],t)};var r=l(n(60)),o=l(n(84)),i=l(n(94)),s=l(n(96)),a=n(0);function l(e){return e&&e.__esModule?e:{default:e}}t.defaults={"config.template.inserts":r.default,"config.template.modifiers":o.default}},function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.defaults=void 0,t.init=function(){(0,a.init)(),(0,l.init)(),h=document.querySelector("#page article"),m=document.querySelector("#page #spinner"),g={},["header","footer"].forEach(function(e){g[e]={container:document.querySelector("#page "+e)},["left","center","right"].forEach(function(t){g[e][t]=document.querySelector("#page "+e+" ."+t)})}),o.default.on("state-change",function(e){var t=e.name;return y("trail"===t)}),["change","click"].forEach(function(e){document.body.addEventListener(e,function(e){for(var t=e.target;t;)t.dataset&&Object.keys(t.dataset).some(function(e){return/^cb[A-Z]/.test(e)})&&o.default.emit("dom-"+e.type,t),t=t.parentNode})})},t.changeBody=function(e){(0,d.selectAll)(h,"input").forEach(function(e){e.setAttribute("value",e.value)}),(0,d.selectAll)(h,"select").forEach(function(e){for(var t=0;t<e.options.length;t++)t===e.options.selectedIndex?e.options[t].setAttribute("selected",""):e.options[t].removeAttribute("selected")});var t={x:window.scrollX,y:window.scrollY},n=h.innerHTML,r=document.createElement("div");for(;h.firstChild;)r.insertBefore(h.firstChild,r.firstChild);h.innerHTML=n,e(r),window.scrollX=t.x,window.scrollY=t.y,b(h,r.innerHTML,(0,s.get)("config.body.transition.name"),(0,s.get)("config.body.transition.duration"))};var r=p(n(20)),o=p(n(1)),i=n(64),s=n(0),a=n(66),l=n(69),u=n(6),c=n(11),f=p(n(71));n(72);var d=n(7);function p(e){return e&&e.__esModule?e:{default:e}}var h=void 0,g=void 0,m=void 0,v={crossfade:i.crossfade,fadeInOut:i.fadeInOut,none:i.none};t.defaults={"config.body.transition.name":"crossfade","config.body.transition.duration":"500ms","config.header.left":"","config.header.center":"","config.header.right":"","config.header.transition.name":"none","config.header.transition.duration":"500ms","config.footer.left":"_{story.name}_","config.footer.center":"","config.footer.right":"{restart link}","config.footer.transition.name":"none","config.footer.transition.duration":"500ms"};function b(e,t,n,r){v[n]?v[n](e,t,r):v.none(e,t)}var y=(0,r.default)(function(e){if(e.some(function(e){return e[0]})){var t=(0,s.get)("trail"),n=(0,u.passageNamed)(t[t.length-1]);if(!n)throw new Error('There is no passage named "'+t[t.length-1]+'".');window.scrollTo(0,0),b(h,(0,c.render)(n.source),(0,s.get)("config.body.transition.name"),(0,s.get)("config.body.transition.duration")),(0,f.default)(h,m)}["header","footer"].forEach(function(e){g[e].container.classList.remove("has-content"),["left","center","right"].forEach(function(t){var n=(0,c.render)((0,s.get)("config."+e+"."+t));""!==n&&g[e].container.classList.add("has-content"),b(g[e][t],n,(0,s.get)("config."+e+".transition.name"),(0,s.get)("config."+e+".transition.duration"))})})})},function(e,t,n){"use strict";e.exports=function(e,t,n){n=Object.assign({},r,n||{});let o=0,s=function(e){let t={ms:.001,s:1,m:60,h:3600};return t.d=e.hoursPerDay*t.h,t.w=e.daysPerWeek*t.d,t.mth=e.daysPerYear/e.monthsPerYear*t.d,t.y=e.daysPerYear*t.d,t}(n),a=e.toLowerCase().replace(/[^.\w+-]+/g,"").match(/[-+]?[0-9.]+[a-z]+/g);null!==a&&a.forEach(e=>{let t=e.match(/[0-9.]+/g)[0],n=e.match(/[a-z]+/g)[0];o+=function(e,t,n){return e*n[i(t)]}(t,n,s)});if(t)return function(e,t,n){return e/n[i(t)]}(o,t,s);return o};const r={hoursPerDay:24,daysPerWeek:7,weeksPerMonth:4,monthsPerYear:12,daysPerYear:365.25},o={ms:["ms","milli","millisecond","milliseconds"],s:["s","sec","secs","second","seconds"],m:["m","min","mins","minute","minutes"],h:["h","hr","hrs","hour","hours"],d:["d","day","days"],w:["w","week","weeks"],mth:["mon","mth","mths","month","months"],y:["y","yr","yrs","year","years"]};function i(e){for(let t of Object.keys(o))if(o[t].indexOf(e)>-1)return t;throw new Error(`The unit [${e}] is not supported by timestring`)}},function(e,t){function n(e,t){if(!e)throw new Error(t||"AssertionError")}n.notEqual=function(e,t,r){n(e!=t,r)},n.notOk=function(e,t){n(!e,t)},n.equal=function(e,t,r){n(e==t,r)},n.ok=n,e.exports=n},function(e,t,n){"use strict";
 /*!
  * isobject <https://github.com/jonschlinkert/isobject>
  *
