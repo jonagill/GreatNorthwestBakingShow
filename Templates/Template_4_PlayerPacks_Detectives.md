@@ -7,3 +7,5 @@ Attached is a document containing the rules of the game and the background infor
 
 To help set the scene, is the full list of characters we will meet on **[game day]**:
 * **[Bulleted list of players in Role Name + First Name format]**
+
+Let me know if you have any questions!
