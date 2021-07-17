@@ -37,7 +37,7 @@ Oh, and while it is not required, dressing up as your character is highly encour
  
 This is a murder mystery story, and thus will include themes of murder and death, including textual descriptions of dead bodies and blood.  There will be no detailed descriptions of wounds or gore. There will be no violent images or video.
  
-However, there will also be additional themes of **substance abuse**, **infidelity**, and **suicidal ideation**. These are not core elements of the story, but may inform details about certain characters. Please let me know if you have any concerns here and we will confidentially make arrangements as necessary to ensure your comfort.
+However, there will also be additional themes of **substance abuse** and **infidelity**. These are not core elements of the story, but may inform details about certain characters. Please let me know if you have any concerns here and we will confidentially make arrangements as necessary to ensure your comfort.
  
  
 Whew!  That's a lot of stuff.  Let me know if you have any questions!

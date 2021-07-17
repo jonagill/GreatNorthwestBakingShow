@@ -38,7 +38,7 @@ The Detective's Assistant is here to assist the Detective with their investigati
 
 ### The Comedian
 #### Lying: 2/3 
-#### Content warnings: Suicidal ideation, substance abuse
+#### Content warnings: Substance abuse
 
 The Comedian is the host of the Great Northwest Baking Show. They have a problem with drinking and drugs. Two years ago they had to go to rehab after assaulting a heckler in a bar, ant they took the hosting job to help rehabilitate their image.
 
